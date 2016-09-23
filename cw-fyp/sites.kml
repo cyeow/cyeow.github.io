@@ -6,15 +6,15 @@
 </Schema>
 <name>Proposed CW sites for specified districts in Mobile, Alabama</name>
 <description>FYP for AY 16/17 @cyeow</description>
-<Style id="redBox">
-  <LineStyle>
-    <color>CCFF0000</color>
-    <width>2</width>
-  </LineStyle>
-  <PolyStyle>
-    <fill>59FF0000</fill>
-  </PolyStyle>
-</Style>
+  <Style id="redBox">
+    <LineStyle>
+      <color>CCFF0000</color>
+      <width>2</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>59FF0000</color>
+    </PolyStyle>
+  </Style>
 
   <Placemark>
     <name>1</name>
@@ -35,7 +35,7 @@
   30.652704,-88.215203
   30.652519,-88.217134
   30.651282,-88.219430
-	30.653123,-88.224763 
+	30.653123,-88.224763
 	</coordinates>
 	</LinearRing>
 	</outerBoundaryIs>
