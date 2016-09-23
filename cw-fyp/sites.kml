@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 
-<Document id="root_doc"> 
+<Document id="root_doc">
 <Schema name="x" id="x">
 </Schema>
   <Placemark>
     <name>1</name>
     <description>Second Creek (1)</description>
 	<visibility>1</visibility>
-	<Style> 
+	<Style>
 		<LineStyle>
 			<color>CCFF0000</color>
+      <width>2</width>
 		</LineStyle>
 		<PolyStyle>
 			<fill>59FF0000</fill>
@@ -21,17 +22,17 @@
 	<outerBoundaryIs>
 	<LinearRing>
 	<coordinates>
-	30.661379,-88.225421 
-	30.661176,-88.207268 
-	30.654106,-88.207628 
-	30.654088,-88.209302 
-	30.653830,-88.209860 
-	30.653793,-88.211555 
-	30.654162,-88.213529 
-	30.652704,-88.215203 
-	30.652519,-88.217134 
-	30.651282,-88.219430 
-	30.653123,-88.224763 
+	30.661379,-88.225421
+	30.661176,-88.207268
+	30.654106,-88.207628
+	30.654088,-88.209302
+	30.653830,-88.209860
+	30.653793,-88.211555
+	30.654162,-88.213529
+	30.652704,-88.215203
+	30.652519,-88.217134
+	30.651282,-88.219430
+	30.653123,-88.224763
 	</coordinates>
 	</LinearRing>
 	</outerBoundaryIs>
