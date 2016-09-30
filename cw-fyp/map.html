@@ -24,31 +24,12 @@
 //          map: map
 //        });
 
-        var ctaLayer = new google.maps.KmlLayer({
-          url: 'file:///C:/Users/user/Dropbox/NUS/IE4100/sites.kml'
+        var kmlLayer = new google.maps.KmlLayer({
+          url: 'https://cyeow.github.io/cw-fyp/sites.kml'
         });
 
-        ctaLayer.setMap(map);
+        kmlLayer.setMap(map);
 
-/*        var overtonCoords = [
-          {lat: 30.640001, lng: -88.207849},
-          {lat: 30.640642, lng: -88.203066},
-          {lat: 30.639703, lng: -88.199230},
-          {lat: 30.640178, lng: -88.190838},
-          {lat: 30.661193, lng: -88.190592},
-          {lat: 30.661170, lng: -88.207294}
-        ];
-
-        var overtonPoly = new google.maps.Polygon({
-          paths: overtonCoords,
-          strokeColor: '#FF0000',
-          strokeOpacity: 0.8,
-          strokeWeight: 2,
-          fillColor: '#FF0000',
-          fillOpacity: 0.35
-        });
-
-        overtonPoly.setMap(map);*/
       }
     </script>
     <script async defer
