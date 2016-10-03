@@ -6,9 +6,22 @@
   <name>Proposed CW sites for specified districts in Mobile, Alabama</name>
   <description>FYP for AY 16/17 @cyeow.github.io/fyp</description>
 
+  <Style id="TransBluePoly">
+    <LineStyle>
+      <width>1</width>
+      <color>CC0000FF</color>
+    </LineStyle>
+    <PolyStyle>
+      <color>1AFFFFFF</color>
+      <outline>1</outline>
+      <fill>1</fill>
+    </PolyStyle>
+  </Style>
+  
   <Placemark>
     <name>1</name>
     <description>Sheldon (1/6)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -36,6 +49,7 @@
   <Placemark>
     <name>2</name>
     <description>Sheldon (2/6)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -73,6 +87,7 @@
   <Placemark>
     <name>3</name>
     <description>Sheldon (3/6)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -105,6 +120,7 @@
   <Placemark>
     <name>4</name>
     <description>Sheldon (4/6)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -133,6 +149,7 @@
   <Placemark>
     <name>5</name>
     <description>Sheldon (5/6)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -170,6 +187,7 @@
   <Placemark>
     <name>6</name>
     <description>Sheldon (6/6)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -204,6 +222,7 @@
   <Placemark>
     <name>7</name>
     <description>Second Creek (1/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -230,6 +249,7 @@
   <Placemark>
     <name>8</name>
     <description>Second Creek (2/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -256,6 +276,7 @@
   <Placemark>
     <name>9</name>
     <description>Second Creek (3/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -284,6 +305,7 @@
   <Placemark>
     <name>10</name>
     <description>Second Creek (4/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -315,6 +337,7 @@
   <Placemark>
     <name>11</name>
     <description>Thornhill (1/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -356,6 +379,7 @@
   <Placemark>
     <name>13</name>
     <description>Thornhill (3/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -392,6 +416,7 @@
   <Placemark>
     <name>15</name>
     <description>OVerton (1/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -419,6 +444,7 @@
   <Placemark>
     <name>16</name>
     <description>Overton (2/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -442,6 +468,7 @@
   <Placemark>
     <name>17</name>
     <description>Overton (3/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -468,6 +495,7 @@
   <Placemark>
     <name>18</name>
     <description>Overton (4/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
