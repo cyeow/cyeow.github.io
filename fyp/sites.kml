@@ -9,7 +9,7 @@
   <Style id="TransBluePoly">
     <LineStyle>
       <width>1</width>
-      <color>CC0000FF</color>
+      <color>CCFF0000</color>
     </LineStyle>
     <PolyStyle>
       <color>1AFFFFFF</color>
@@ -358,6 +358,7 @@
   <Placemark>
     <name>12</name>
     <description>Thornhill (2/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
@@ -398,6 +399,7 @@
   <Placemark>
     <name>14</name>
     <description>Thornhill (4/4)</description>
+    <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
   	   <LinearRing>
