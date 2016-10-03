@@ -9,7 +9,7 @@
     </style>
   </head>
   <body>
-    <h3>My Google Maps Demo</h3>
+    <h3>Wastewater generation sites and proposed constructed wetlands locations for Mobile, Alabama</h3>
     <div id="map"></div>
     <script>
       function initMap() {
@@ -33,6 +33,11 @@
 
         kmlLayer.setMap(map);
 
+        map.data.setStyle({
+          fillColor: rgba(1,1,1,0.35),
+          strokeWeight: 1,
+          strokeColor: rgba(0,0,1,0.8),
+        });
       }
     </script>
     <script async defer
