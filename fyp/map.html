@@ -19,10 +19,13 @@
           center: mobile,
           mapTypeId: 'satellite'
         });
-//        var marker = new google.maps.Marker({
-//          position: mobile,
-//          map: map
-//        });
+        
+        var img = 'https://cyeow.github.io/fyp/circle.png';
+        var marker = new google.maps.Marker({
+          position: {lat: 30.68091, lng:-88.21903},
+          icon: img,
+          map: map
+        });
 
         var kmlLayer = new google.maps.KmlLayer({
           url: 'https://cyeow.github.io/fyp/sites.kml'
