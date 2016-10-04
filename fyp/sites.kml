@@ -17,7 +17,16 @@
       <fill>1</fill>
     </PolyStyle>
   </Style>
-  
+
+  <Style id="CircleIcon">
+    <IconStyle>
+      <href>https://cyeow.github.io/fyp/circle.png</href>
+      <scale>1</scale>
+    </IconStyle>
+  </Style>
+
+
+  <!-- Polygons -->
   <Placemark>
     <name>1</name>
     <description>Sheldon (1/6)</description>
@@ -523,6 +532,209 @@
   	 </outerBoundaryIs>
   	</Polygon>
   </Placemark>
+
+  <!-- /Polygons -->
+
+  <!-- Point Sources -->
+  <Placemark>
+    <name>1</name>
+    <description>Sheldon (1/6)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+        -88.21903, 30.68091, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>2</name>
+    <description>Sheldon (2/6)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+        -88.21191, 30.68448, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>3</name>
+    <description>Sheldon (3/6)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.21407, 30.67438, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>4</name>
+    <description>Sheldon (4/6)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.2124, 30.67030, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>5</name>
+    <description>Sheldon (5/6)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.22006, 30.66602, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>6</name>
+    <description>Sheldon (6/6)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.21242, 30.66296, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>7</name>
+    <description>Second Creek (1/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.22023, 30.65622, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>8</name>
+    <description>Second Creek (2/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.21195, 30.65807, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>9</name>
+    <description>Second Creek (3/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.22122, 30.64520, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>10</name>
+    <description>Second Creek (4/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.20972, 30.64928, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>11</name>
+    <description>Thornhill (1/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.19916, 30.67816, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>12</name>
+    <description>Thornhill (2/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.20382, 30.66729, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>13</name>
+    <description>Thornhill (3/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.19483, 30.67099, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>14</name>
+    <description>Thornhill (4/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.19536, 30.66364, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>15</name>
+    <description>Overton (1/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.20249, 30.65495, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>16</name>
+    <description>Overton (2/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.19354, 30.65746, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>17</name>
+    <description>Overton (3/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.19513, 30.64819, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>18</name>
+    <description>Overton (4/4)</description>
+    <styleUrl>#CircleIcon</styleUrl>
+    <Point>
+      <coordinates>
+      -88.19952, 30.64237, 0
+      </coordinates>
+    </Point>
+  </Placemark>
+
+  <!-- /Point Sources -->
 
  </Document>
 </kml>
