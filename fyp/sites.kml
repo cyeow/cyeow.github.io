@@ -20,7 +20,9 @@
 
   <Style id="CircleIcon">
     <IconStyle>
-      <href>https://cyeow.github.io/fyp/circle.png</href>
+      <Icon>
+        <href>https://cyeow.github.io/fyp/circle.png</href>
+      </Icon>
       <scale>1</scale>
     </IconStyle>
   </Style>
