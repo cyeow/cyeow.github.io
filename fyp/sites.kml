@@ -23,10 +23,21 @@
       <Icon>
         <href>https://cyeow.github.io/fyp/circle.png</href>
       </Icon>
-      <scale>1</scale>
+      <scale>0.5</scale>
     </IconStyle>
   </Style>
 
+  <Style id="OpaqGreenPoly">
+    <LineStyle>
+      <width>1</width>
+      <color>CC00FF00</color>
+    </LineStyle>
+    <PolyStyle>
+      <color>9900FF00</color>
+      <outline>1</outline>
+      <fill>1</fill>
+    </PolyStyle>
+  </Style>
 
   <!-- Polygons -->
   <Placemark>
@@ -428,7 +439,7 @@
 
   <Placemark>
     <name>15</name>
-    <description>OVerton (1/4)</description>
+    <description>Overton (1/4)</description>
     <styleUrl>#TransBluePoly</styleUrl>
   	<Polygon>
   	 <outerBoundaryIs>
@@ -738,5 +749,206 @@
 
   <!-- /Point Sources -->
 
+  <!-- CW sites -->
+
+  <Placemark>
+    <name>1</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.218424, 30.683922, 0
+        -88.215746, 30.683024, 0
+        -88.215732, 30.682286, 0
+        -88.218502, 30.682286, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>3</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.221359, 30.676176, 0
+        -88.218687, 30.676150, 0
+        -88.218765, 30.674009, 0
+        -88.221440, 30.673962, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>7</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.224931, 30.658507, 0
+        -88.223191, 30.658560, 0
+        -88.222853, 30.654550, 0
+        -88.224664, 30.654540, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>9</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.219234, 30.640452, 0
+        -88.215952, 30.638885, 0
+        -88.215632, 30.636134, 0
+        -88.219429, 30.637306, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>10</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.217446, 30.646957, 0
+        -88.212371 , 30.647009, 0
+        -88.212079, 30.641552, 0
+        -88.217063, 30.641612, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>11</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.207381, 30.682888, 0
+        -88.204572, 30.682326, 0
+        -88.204506, 30.680525, 0
+        -88.207424, 30.680571, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>12-1</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.204775, 30.673766, 0
+        -88.200201, 30.673829, 0
+        -88.200136, 30.671658, 0
+        -88.203901, 30.671508, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>12-2</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.207294, 30.668776, 0
+        -88.202230, 30.668745, 0
+        -88.202131, 30.666828, 0
+        -88.207299, 30.666905, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>13</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.198930, 30.668491, 0
+        -88.192741, 30.668675, 0
+        -88.192657, 30.666935, 0
+        -88.198832, 30.666797, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>15</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.203210, 30.654513, 0
+        -88.201990, 30.654488, 0
+        -88.200885, 30.651012, 0
+        -88.203786, 30.651025, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>18</name>
+    <description></description>
+    <styleUrl>#OpaqGreenPoly</styleUrl>
+  	<Polygon>
+  	 <outerBoundaryIs>
+  	   <LinearRing>
+  	    <coordinates>
+        -88.205314, 30.647221, 0
+        -88.201278, 30.647121, 0
+        -88.201241, 30.646024, 0
+        -88.205256, 30.646125, 0
+  	    </coordinates>
+  	  </LinearRing>
+  	 </outerBoundaryIs>
+  	</Polygon>
+  </Placemark>
+
+  <!-- /CW sites -->
  </Document>
 </kml>
