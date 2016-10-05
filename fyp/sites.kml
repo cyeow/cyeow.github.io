@@ -16,6 +16,10 @@
       <outline>1</outline>
       <fill>1</fill>
     </PolyStyle>
+    <LabelStyle>
+      <color>FFFFFFFF</color>
+      <scale>2</scale>
+    </LabelStyle>
   </Style>
 
   <Style id="CircleIcon">
@@ -37,6 +41,10 @@
       <outline>1</outline>
       <fill>1</fill>
     </PolyStyle>
+    <LabelStyle>
+      <color>FF000000</color>
+      <scale>2</scale>
+    </LabelStyle>
   </Style>
 
   <!-- Polygons -->
