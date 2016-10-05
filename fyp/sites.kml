@@ -9,10 +9,10 @@
   <Style id="TransBluePoly">
     <LineStyle>
       <width>1</width>
-      <color>CCFF0000</color>
+      <color>CCF08C14</color>
     </LineStyle>
     <PolyStyle>
-      <color>1AFFFFFF</color>
+      <color>11FFFFFF</color>
       <outline>1</outline>
       <fill>1</fill>
     </PolyStyle>
@@ -34,10 +34,10 @@
   <Style id="OpaqGreenPoly">
     <LineStyle>
       <width>1</width>
-      <color>CC00FF00</color>
+      <color>CC14F000</color>
     </LineStyle>
     <PolyStyle>
-      <color>9900FF00</color>
+      <color>9914F000</color>
       <outline>1</outline>
       <fill>1</fill>
     </PolyStyle>
