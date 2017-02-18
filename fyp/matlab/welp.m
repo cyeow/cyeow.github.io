@@ -1,7 +1,8 @@
-i = 7;
-j = 5;
+function x = welp()
+    [x,q] = fn(200);
+end
 
-A = randn(i,j);
-B = randn(i,j);
-
-B.*A
+function [y,z] = fn(n)
+    y = 120*n;
+    z = 123;
+end
