@@ -1,4 +1,5 @@
 function [optval, x, y, z] = temp() 
+%% import data
     filename = 'importdata.xlsx';
 
     iInfo = readtable(filename, 'Sheet', 1, 'ReadRowNames', true);
@@ -79,57 +80,119 @@ function [optval, x, y, z] = temp()
         end
     end
 
-    %constraints initialisation
-    [Aeq, beq, A, b] = init(size_i, size_j, size_k);
+%% variable types and boundaries
+    start_y = (size_i*size_j+1);
+    numVars = (size_i*size_j)+(size_i*size_j)+(size_j*size_k); 
+    intcon = []; %start_y:numVars; % y and z are binary
+    lb = zeros(numVars, 1);
+    ub = ones(numVars, 1);
+    
+%% objective function 
+    f = init(size_i,size_j,size_k);
+    [x, y, z] = reset(size_i,size_j,size_k);
+    y = pipeCostPerMetre*dij;
+    z = cjk;
+    f = consolidateVars(x,y,z);
+    
+%% constraints    
+    %initialisation
+    [Aeq, beq] = init(size_i, size_j, size_k);
+    [A, b] = init(size_i, size_j, size_k);
     
     % pollutant treatment constraint
-    
-    % pollutant decay factor
+    %  pollutant decay factor
     wjkm = zeros(size_j, size_k, size_m);
-    tempjk = exp(-1.0*(Ajk./Qjk));
-    tempjk(:,1) = zeros(size_j,1); %overwrite /0 in option 0 for k
+    exponjk = -1.0*(Ajk./Qjk);
+    exponjk(:,1) = zeros(size_j,1); %overwrite /0 in option 0 for k
     for iter_m = 1:size_m
-        wjkm(:,:,iter_m) = tempjk.*kma(iter_m);
+        wjkm(:,:,iter_m) = exp(exponjk.*kma(iter_m));
     end
     
-    % pollutant initial concentration
+    %  pollutant initial concentration
     constmj = bsxfun(@minus,eminj,cmj);
-    % pollutant treatment target
+    %  pollutant treatment target
     netTargetmj = bsxfun(@minus,tmj,cmj);
     
     % coefficient calculation and assignment
     for iter_m = 1:size_m
         for iter_j = 1:size_j
-            [Aeq_x, Aeq_y, Aeq_z, beq, A_x, A_y, A_z, b] = reset(size_i, size_j, size_k);
+            [Aeq_x, Aeq_y, Aeq_z, beq_new] = reset(size_i, size_j, size_k);
             Aeq_z(iter_j,:) = constmj(iter_m,iter_j)*wjkm(iter_j,:,iter_m);
-            beq = netTargetmj(iter_m,iter_j);
-            Aeq = addNewConstraint(Aeq_x, Aeq_y, Aeq_z, beq, Aeq);
+            beq_new = netTargetmj(iter_m,iter_j);
+            [Aeq, beq] = addNewConstraint(Aeq_x, Aeq_y, Aeq_z, beq_new, Aeq, beq);
         end
     end
-    % mass conservation
     
+    % pollutant amount conservation constraint
     
+    for iter_m = 1:size_m
+        [Aeq_x, Aeq_y, Aeq_z, beq_new] = reset(size_i, size_j, size_k);
+        for iter_j = 1:size_j
+            Aeq_x(:,iter_j) = flowRate.*emi(iter_m,:);
+        end
+        beq_new = sum(sum(flowRate.*emi(iter_m,:)));
+        [Aeq, beq] = addNewConstraint(Aeq_x, Aeq_y, Aeq_z, beq_new, Aeq, beq);
+    end
+    
+    % CW minimum capacity constraint
+    
+    for iter_j = 1:size_j
+        [A_x, A_y, A_z, b_new] = reset(size_i, size_j, size_k);
+        A_x(:,iter_j) = flowRate;
+        A_z(iter_j,:) = -1.0*Qjk(iter_j,:);
+        b_new = 0;
+        [A, b] = addNewConstraint(A_x, A_y, A_z, b_new, A, b);
+    end
+    
+    % logic constraints
+    % xij
+    for iter_i = 1:size_i
+        [Aeq_x, Aeq_y, Aeq_z, beq_new] = reset(size_i, size_j, size_k);
+        Aeq_x(iter_i,:) = ones(1,size_j);
+        beq_new = 1;
+        [Aeq, beq] = addNewConstraint(Aeq_x, Aeq_y, Aeq_z, beq_new, Aeq, beq);
+    end
+    % zjk
+    for iter_j = 1:size_j
+        [Aeq_x, Aeq_y, Aeq_z, beq_new] = reset(size_i, size_j, size_k);
+        Aeq_z(iter_j,:) = ones(1,size_k);
+        beq_new = 1;
+        [Aeq, beq] = addNewConstraint(Aeq_x, Aeq_y, Aeq_z, beq_new, Aeq, beq);
+    end
+    %yij
+    for iter_j = 1:size_j
+        for iter_i = 1:size_i
+            [A_x, A_y, A_z, b_new] = reset(size_i, size_j, size_k);
+            A_x(iter_j,iter_j) = 1;
+            A_y(iter_i,iter_j) = -1;
+            b_new = 0;
+            [A, b] = addNewConstraint(A_x, A_y, A_z, b_new, A, b);
+        end
+    end
+
+%% run intlinprog
+options = optimoptions('linprog','Algorithm','dual-simplex','Display','iter');
+res = linprog(f,A,b,Aeq,beq,lb,ub,[],options)
 end
 
-function [Aeq, beq, A, b] = init(size_i, size_j, size_k)
-    Aeq = zeros(1,size_i*size_j+size_i*size_j+size_j*size_k);
-    beq = 0;
-    A = zeros(1,size_i*size_j+size_i*size_j+size_j*size_k);
-    b = 0;
+function [A, b] = init(size_i, size_j, size_k)
+    A = double.empty(0,size_i*size_j+size_i*size_j+size_j*size_k);
+    b = double.empty(0,1);
 end
 
-function [Aeq_x, Aeq_y, Aeq_z, beq, A_x, A_y, A_z, b] = reset(size_i, size_j, size_k)
-    Aeq_x = zeros(size_i,size_j);
-    Aeq_y = zeros(size_i,size_j);
-    Aeq_z = zeros(size_j,size_k);
+function [A_x, A_y, A_z, b] = reset(size_i, size_j, size_k)
     A_x = zeros(size_i,size_j);
     A_y = zeros(size_i,size_j);
     A_z = zeros(size_j,size_k);
-    beq = 0;
     b = 0;
 end
 
-function A_new = addNewConstraint(A_x, A_y, A_z, b, A_curr)
+function [A_new, b_new] = addNewConstraint(A_x, A_y, A_z, b, A_curr, b_curr)
     A = cat(2,reshape(A_x',1,[]),reshape(A_y',1,[]),reshape(A_z',1,[]));
     A_new = cat(1, A_curr, A);
+    b_new = cat(1, b_curr, b);
+end
+
+function f = consolidateVars(x,y,z)
+    f = addNewConstraint(x,y,z,0,[],[]);
 end

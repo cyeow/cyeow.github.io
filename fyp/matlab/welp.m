@@ -1,5 +1,6 @@
 function x = welp()
-    [x,q] = fn(200);
+    x3d = randn(5,6,4)
+    new = reshape(permute(x3d,[2 1 3]), 1, [])
 end
 
 function [y,z] = fn(n)
