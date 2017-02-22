@@ -137,9 +137,13 @@ function [optval, x, y, z] = runlp()
     %  pollutant treatment target
     netTargetmj = bsxfun(@minus,tmj,cmj);
     
+    temp_i = 7;
+    temp_m = 1;
+    temp_j = 10;
+    temp_k = 5;
     % coefficient calculation and assignment
-    for iter_m = 1:size_m
-        for iter_j = 1:size_j
+    for iter_m = 1:temp_m
+        for iter_j = 1:temp_j
             [Aeq_x, Aeq_y, Aeq_z, Aeq_s, beq_new] = reset(size_i, size_j, size_k);
             Aeq_z(iter_j,:) = cmj(iter_m,iter_j)*wjkm(iter_j,:,iter_m);
             temp = emi(iter_m,:)'*wjkm(iter_j,:,iter_m);
@@ -150,9 +154,9 @@ function [optval, x, y, z] = runlp()
     end
     
     % constraint for introduced variable s_ijk
-    for iter_i = 1:size_i
-        for iter_j = 1:size_j
-            for iter_k = 1:size_k
+    for iter_i = 1:temp_i
+        for iter_j = 1:temp_j
+            for iter_k = 1:temp_k
                 [A_x, A_y, A_z, A_s, b_new] = reset(size_i, size_j, size_k);                
                 A_s(iter_i, iter_j, iter_k) = -1;
                 A_x(iter_i, iter_j) = 1;
@@ -163,9 +167,9 @@ function [optval, x, y, z] = runlp()
         end
     end
     
-    for iter_i = 1:size_i
-        for iter_j = 1:size_j
-            for iter_k = 1:size_k
+    for iter_i = 1:temp_i
+        for iter_j = 1:temp_j
+            for iter_k = 1:temp_k
                 [A_x, A_y, A_z, A_s, b_new] = reset(size_i, size_j, size_k);                
                 A_s(iter_i, iter_j, iter_k) = 1;
                 A_z(iter_j, iter_k) = -1;
@@ -175,9 +179,9 @@ function [optval, x, y, z] = runlp()
         end
     end
     
-    for iter_i = 1:size_i
-        for iter_j = 1:size_j
-            for iter_k = 1:size_k
+    for iter_i = 1:temp_i
+        for iter_j = 1:temp_j
+            for iter_k = 1:temp_k
                 [A_x, A_y, A_z, A_s, b_new] = reset(size_i, size_j, size_k);                
                 A_s(iter_i, iter_j, iter_k) = 1;
                 A_x(iter_i, iter_j) = -1;
@@ -235,8 +239,8 @@ function [optval, x, y, z] = runlp()
     end
 
 %% run intlinprog
-    options = optimoptions('intlinprog','Display','iter');
-    [res,~,exitflag] = intlinprog(f,intcon,A,b,Aeq,beq,lb,ub,options);
+    options = optimoptions('intlinprog','Display','iter', 'MaxNodes', 10^16, 'LPMaxIterations', Inf);
+    [res,~,exitflag] = intlinprog(f,intcon,A,b,Aeq,beq,lb,ub,options)
 %     x = reshape(res(1:size_i*size_j)', size_i,size_j)
 %     for iter_v = 1:length(vars)
 %         fprintf('%12.2f \t%s\n',res(iter_v),vars{iter_v})    

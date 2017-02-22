@@ -258,14 +258,19 @@ Before the uncertainty component is addressed, we may come up with a determinist
 \begin{aligned}
 	\text{Model D}:~~&min \sum_{j=1}^{J}\sum_{k=1}^{K}c_{cw,jk}z_{jk}+\sum_{i=1}^{I}\sum_{j=1}^{J}d_{ij}c_sy_{ij}\\~~\mbox{s.t.}~~
 	&{\sum_{i=1}^{I}F_{i}\varepsilon_{i}^{m}x_{ij}} = {\sum_{i=1}^{I}F_{i}\varepsilon_{i}^{m}}&&\forall j,m\\
-	&[\varepsilon_{in,j}^{m}-{c}_{j}^{m*}]\sum_{k=0}^{K}e^{-\frac{A_{jk}}{Q_{jk}}k_{A}^{m}}z_{jk}+c_{j}^{m*} \leq \tau_{j}^{m}&&\forall j,m\\
+	&\sum_{k=1}^{K} c_{j}^{m*} e^{-\frac{A_{jk}}{Q_{jk}}k_{A}^{m}} z_{jk} + \sum_{i=1}^{I}\sum_{k=1}^{K} \varepsilon_i^m s_{ijk} \leq \tau_j^m - c_j^{m*} && \forall j,m\\
+	&x_{ij} + z_{jk} - s_{ijk} \leq 1 && \forall i, j, k\\
+	&s_{ijk} - x_{ij} \leq 0 && \forall i, j, k\\
+	&s_{ijk} - z_{jk} \leq 0 && \forall i, j, k\\
+%	&[\varepsilon_{in,j}^{m}-{c}_{j}^{m*}]\sum_{k=0}^{K}e^{-\frac{A_{jk}}{Q_{jk}}k_{A}^{m}}z_{jk}+c_{j}^{m*} \leq \tau_{j}^{m}&&\forall j,m\\
 	&\sum_{i=1}^{I}F_{i}x_{ij}\leq\sum_{k = 0}^{K}Q_{jk}z_{jk}&&\forall j\\
 	&\sum_{j=1}^{J}x_{ij} = 1&&\forall i\\
 	&\sum_{k=0}^{K}z_{jk} = 1&&\forall j\\
 	&x_{ij}\leq y_{ij}&&\forall i,j\\
 	&y_{ij} \in \{0,1\}&&\forall i,j\\
 	&z_{jk} \in \{0,1\}&&\forall j,k\\
-	&0 \leq x_{ij} \leq 1&&\forall i,j
+	&0 \leq x_{ij} \leq 1&&\forall i,j\\
+	&0 \leq s_{ijk} \leq 1&&\forall i,j,k\\
 \end{aligned}
 \end{equation*}
 \newpage
