@@ -138,7 +138,8 @@ function [optval, x, y, z] = runlp()
 %    constmj = bsxfun(@minus,eminj,cmj);
     %  pollutant treatment target
     netTargetmj = bsxfun(@minus,tmj,cmj);
-    
+
+%% test region
     temp_i = 11;
     temp_m = 1;
     temp_j = 9;
