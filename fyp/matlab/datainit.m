@@ -1,4 +1,4 @@
-function [optval, x, y, z] = runlp()
+function datainit()
 %% import data
     filename = 'importdata.xlsx';
 
@@ -38,8 +38,7 @@ function [optval, x, y, z] = runlp()
 %         eval([vars{iter_v}, ' = ', num2str(iter_v),';']);
 %     end
     
-    % calculate distance between wastewater sources and potential cw sites
-    %  d_{ij}
+    % determine dij: calculate distance between wastewater sources and potential cw sites
     dist_ij = zeros(size_i, size_j);
     
     for iter_i = 1:size_i
@@ -51,8 +50,7 @@ function [optval, x, y, z] = runlp()
     
     dist_ij = dist_ij*1000; %convert from km to m
 
-    % define flow rate of wastewater sources
-    %  F_i
+    % define fi: flow rate of wastewater sources
     srcFlowRate = zeros(1,size_i);
 
     for iter_i = 1:size_i
@@ -60,7 +58,7 @@ function [optval, x, y, z] = runlp()
     end
 
     % define pollutant concentrations
-    %  epsilon^m_i
+    %  emi, at wastewater source
     srcConc_mi = zeros(size_m,size_i);
 
     for iter_m = 1:size_m
@@ -69,40 +67,40 @@ function [optval, x, y, z] = runlp()
         end
     end
 
-%     %  eminj, influent of cw
-%     eminj = zeros(size_m,size_j);
-% 
-%     for iter_m = 1:size_m
-%         for iter_j = 1:size_j
-%             eminj(iter_m,iter_j) = (mInfo.minSrcConc(iter_m) + mInfo.maxSrcConc(iter_m))/2;
-%         end
-%     end
+    %  eminj, influent of cw
+    siteConcIn_mj = zeros(size_m,size_j);
 
-    % kma, coeff k^m_A
-    % tmj, treatment targets tau^m_j
-    % cmj, background concentrations C^{m*}_j
+    for iter_m = 1:size_m
+        for iter_j = 1:size_j
+            siteConcIn_mj(iter_m,iter_j) = (mInfo.minSrcConc(iter_m) + mInfo.maxSrcConc(iter_m))/2;
+        end
+    end
+
+    % kma, coeff 
+    % tmj, treatment targets
+    % cmj, background concentrations
     kma = zeros(1, size_m);
-    treatmentTarget_mj = zeros(size_m, size_j);
-    bgConc_mj = zeros(size_m, size_j);
+    tmj = zeros(size_m, size_j);
+    cmj = zeros(size_m, size_j);
 
     for iter_m = 1:size_m
         kma(iter_m) = mInfo.kA(iter_m);
         for iter_j = 1:size_j
-            treatmentTarget_mj(iter_m,iter_j) = mInfo.treatmentTarget(iter_m);
-            bgConc_mj(iter_m,iter_j) = mInfo.backgroundConc(iter_m);
+            tmj(iter_m,iter_j) = mInfo.treatmentTarget(iter_m);
+            cmj(iter_m,iter_j) = mInfo.backgroundConc(iter_m);
         end
     end
 
-    % capacity, area and cost of cw j given design option k
-    flowCapacity_jk = zeros(size_j, size_k);
-    area_jk = zeros(size_j, size_k);
-    cost_jk = zeros(size_j, size_k);
+    % capacity and area of cw j given design option k
+    Qjk = zeros(size_j, size_k);
+    Ajk = zeros(size_j, size_k);
+    cjk = zeros(size_j, size_k);
 
     for iter_j = 1:size_j
         for iter_k = 1:size_k
-            flowCapacity_jk(iter_j,iter_k) = kInfo.flowCapacity(iter_k);
-            area_jk(iter_j,iter_k) = kInfo.area(iter_k);
-            cost_jk(iter_j,iter_k) = kInfo.cost(iter_k);
+            Qjk(iter_j,iter_k) = kInfo.Qk(iter_k);
+            Ajk(iter_j,iter_k) = kInfo.Ak(iter_k);
+            cjk(iter_j,iter_k) = kInfo.ck(iter_k);
         end
     end
 
@@ -119,7 +117,7 @@ function [optval, x, y, z] = runlp()
     f = init(size_i,size_j,size_k);
     [x, y, z, s] = reset(size_i,size_j,size_k);
     y = pipeCostPerMetre*dist_ij;
-    z = cost_jk;
+    z = cjk;
     f = consolidateVars(x,y,z,s);
     
 %% constraints    
@@ -129,34 +127,31 @@ function [optval, x, y, z] = runlp()
     
     % pollutant treatment constraint
     %  pollutant decay factor
-    w_jkm = zeros(size_j, size_k, size_m);
-    temp_jk = -1.0*(area_jk./flowCapacity_jk);
+    wjkm = zeros(size_j, size_k, size_m);
+    exponjk = -1.0*(Ajk./Qjk);
     for iter_m = 1:size_m
-        w_jkm(:,:,iter_m) = exp(temp_jk.*kma(iter_m));
+        wjkm(:,:,iter_m) = exp(exponjk.*kma(iter_m));
     end
-    %overwrite /0 in option 0 for k with 1. 
-    %1 means pollutant concentration was not reduced.
-    w_jkm(:,1,:) = ones(size_j,1,size_m); 
+    wjkm(:,1,:) = zeros(size_j,1,size_m); %overwrite /0 in option 0 for k
     
     %  pollutant initial concentration
 %    constmj = bsxfun(@minus,eminj,cmj);
     %  pollutant treatment target
-    netTarget_mj = bsxfun(@minus,treatmentTarget_mj,bgConc_mj);
+    netTargetmj = bsxfun(@minus,tmj,cmj);
 
 %% test region
-    temp_i = 14;    % size_i = 14
-    temp_j = 10;     % size_j = 10
-    temp_k = 5;     % size_k = 5
-    temp_m = 1;     % size_m = 3
-    
+    temp_i = 13;
+    temp_m = 1;
+    temp_j = 10;
+    temp_k = 5;
     % coefficient calculation and assignment
     for iter_m = 1:temp_m
         for iter_j = 1:temp_j
             [Aeq_x, Aeq_y, Aeq_z, Aeq_s, beq_new] = reset(size_i, size_j, size_k);
-            Aeq_z(iter_j,:) = bgConc_mj(iter_m,iter_j)*w_jkm(iter_j,:,iter_m);
-            temp = srcConc_mi(iter_m,:)'*w_jkm(iter_j,:,iter_m);
+            Aeq_z(iter_j,:) = cmj(iter_m,iter_j)*wjkm(iter_j,:,iter_m);
+            temp = srcConc_mi(iter_m,:)'*wjkm(iter_j,:,iter_m);
             Aeq_s(:,iter_j,:) = permute(temp, [1 3 2]);
-            beq_new = netTarget_mj(iter_m,iter_j);
+            beq_new = netTargetmj(iter_m,iter_j);
             [Aeq, beq] = addNewConstraint(Aeq_x, Aeq_y, Aeq_z, Aeq_s, beq_new, Aeq, beq);
         end
     end
@@ -215,7 +210,7 @@ function [optval, x, y, z] = runlp()
     for iter_j = 1:size_j
         [A_x, A_y, A_z, A_s, b_new] = reset(size_i, size_j, size_k);
         A_x(:,iter_j) = srcFlowRate;
-        A_z(iter_j,:) = -1.0*flowCapacity_jk(iter_j,:);
+        A_z(iter_j,:) = -1.0*Qjk(iter_j,:);
         b_new = 0;
         [A, b] = addNewConstraint(A_x, A_y, A_z, A_s, b_new, A, b);
     end
@@ -245,26 +240,8 @@ function [optval, x, y, z] = runlp()
             [A, b] = addNewConstraint(A_x, A_y, A_z, A_s, b_new, A, b);
         end
     end
-
-%% run intlinprog
-    options = optimoptions('intlinprog','Display','iter',...
-                           'MaxNodes', 10^16,...
-                           'LPMaxIterations', Inf,...
-                           'MaxTime', 500);%14400);
-    [res,~,exitflag] = intlinprog(f,intcon,A,b,Aeq,beq,lb,ub,options);
-
-    x = transpose(reshape(res(1:end_x), size_j, size_i))
-    y = transpose(reshape(res((end_x+1):end_y), size_j, size_i))
-    z = transpose(reshape(res((end_y+1):end_z), size_k, size_j))
-    s = permute(reshape(res((end_z+1):numVars), size_j, size_i, size_k), [2 1 3])
+end    
     
-    exitflag
-    
-%     x = reshape(res(1:size_i*size_j)', size_i,size_j)
-%     for iter_v = 1:length(vars)
-%         fprintf('%12.2f \t%s\n',res(iter_v),vars{iter_v})    
-%     end
-end
 
 function [A, b] = init(size_i, size_j, size_k)
     num_x = size_i*size_j;
