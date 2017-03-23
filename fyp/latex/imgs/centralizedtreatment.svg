@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="windows-1252"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
+    version="1.1" baseProfile="full">
+    <g>
+        <g latexdraw:type="bezierCurve" id="id24137996">
+            <path
+                d="M 220.0 240.0 C 257.9628301182648 272.5395686727984 224.64466094067262 304.6446609406726 260.0 340.0 C 295.3553390593274 375.3553390593274 310.8065044950045 388.94427190999943 360.0 380.0 C 409.19349550499544 371.05572809000057 453.500052999841 342.3999152002543 480.0 300.0 C 506.49994700015895 257.6000847997457 460.0 270.0 460.0 220.0 C 460.0 170.0 499.6959649289587 165.95725150090402 480.0 120.0 C 460.3040350710413 74.0427484990962 449.4974746830585 72.92893218813448 400.0 80.0 C 350.5025253169415 87.0710678118655 389.4974746830585 132.9289321881344 340.0 140.0 C 290.50252531694156 147.07106781186556 309.6941867336807 105.52157630374231 260.0 100.0 C 210.30581326631926 94.47842369625768 197.96283011826475 87.4604313272016 160.0 120.0 C 122.03716988173524 152.53956867279842 97.6393202250021 175.2786404500042 120.0 220.0 C 142.3606797749979 264.7213595499958 182.03716988173522 207.4604313272016 220.0 240.0 z "
+                stroke-width="2.0" stroke="black" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="circle" id="id29996744">
+            <circle cx="160.0" cy="160.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id14261295">
+            <polyline points="260.0,120.0 180.0,140.0 160.0,160.0 "
+                stroke-width="2.0" stroke="black" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id23474509">
+            <polyline points="420.0,140.0 340.0,160.0 160.0,160.0 "
+                stroke-width="2.0" stroke="black" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id29074962">
+            <polyline points="440.0,220.0 160.0,160.0 "
+                stroke-width="2.0" stroke="black" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id23245782">
+            <polyline points="300.0,220.0 160.0,160.0 "
+                stroke-width="2.0" stroke="black" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id6666610">
+            <polyline points="300.0,340.0 160.0,160.0 "
+                stroke-width="2.0" stroke="black" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id21735914">
+            <polyline points="420.0,340.0 160.0,160.0 "
+                stroke-width="2.0" stroke="black" latexdraw:rotationAngle="0.0"/>
+        </g>
+    </g>
+    <defs/>
+    <metadata>
+        <latexdraw:metadata>
+            <latexdraw:latexIncludes/>
+            <latexdraw:displayXScale>true</latexdraw:displayXScale>
+            <latexdraw:displayYScale>true</latexdraw:displayYScale>
+            <latexdraw:unit>CM</latexdraw:unit>
+            <latexdraw:zoom>1.0</latexdraw:zoom>
+            <latexdraw:magneticGridStyle>CUSTOMISED</latexdraw:magneticGridStyle>
+            <latexdraw:gridGap>20</latexdraw:gridGap>
+            <latexdraw:magneticGrid>true</latexdraw:magneticGrid>
+            <latexdraw:version>3.3.5</latexdraw:version>
+            <latexdraw:size>
+                <latexdraw:width>1920</latexdraw:width>
+                <latexdraw:height>1080</latexdraw:height>
+            </latexdraw:size>
+            <latexdraw:position>
+                <latexdraw:x>0.0</latexdraw:x>
+                <latexdraw:y>0.0</latexdraw:y>
+            </latexdraw:position>
+        </latexdraw:metadata>
+    </metadata>
+</svg>

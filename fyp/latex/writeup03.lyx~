@@ -1,0 +1,3233 @@
+#LyX file created by tex2lyx 2.2
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin C:/Users/user/Documents/GitHub/cyeow.github.io/fyp/latex/
+\textclass elsarticle
+\begin_preamble
+
+\def\ps@pprintTitle{%
+	\let\@oddhead\@empty
+	\let\@evenhead\@empty
+	\def\@oddfoot{\centerline{\thepage}}%
+	\let\@evenfoot\@oddfoot}
+
+\usepackage{booktabs}
+\usepackage{subfigure}
+\usepackage{epsfig}\usepackage{epstopdf}\usepackage{mathrsfs}
+\usepackage{multirow}
+\usepackage{multicol}\usepackage{color}
+\usepackage{soul}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{titlesec}
+\usepackage{enumerate}
+\usepackage{amsfonts}
+\usepackage{threeparttable}
+\usepackage{float}
+\usepackage{url}
+\usepackage[titletoc,title]{appendix}
+\usepackage{booktabs}
+\usepackage{csvsimple}
+
+
+\titleformat{\paragraph}[block]{\normalsize\bfseries}{\theparagraph}{1em}{}
+
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+
+\newtheorem{theorem}{Theorem}\newtheorem{lemma}{Lemma}\newtheorem{proposition}{Proposition}\newtheorem{corollary}[theorem]{Corollary}\newtheorem{assumption}{Assumption}
+
+\newenvironment{proof}{\paragraph{Proof.}}{\hfill$\square$}
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example}[1][Example]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{mydescription}{\begin{description}
+		\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}}{\end{description}} 
+
+\newcommand{\bI}{\mathcal I}
+\newcommand{\bN}{\mathcal N}
+\newcommand{\bE}{\mathbb E}
+\newcommand{\bR}{\mathfrak R}
+\newcommand{\bQ}{\mathbb Q}
+\newcommand{\bF}{\mathbb F}
+\newcommand{\bP}{\mathbb P}
+\newcommand{\by}{\mathbf y}
+\newcommand{\bX}{\mathbf X}
+\newcommand{\bT}{\mathbf T}
+\newcommand{\bD}{\mathbf D}
+\newcommand{\bt}{\mathbf t}
+\newcommand{\bx}{\mathbf x}
+\newcommand{\bs}{\mathbf s}
+\newcommand{\bU}{\mathcal U}
+\newcommand{\bW}{\mathcal W}
+\newcommand{\pr}{\textup{Pr}}
+
+
+\newcommand{\mb}[1]{\mbox{\boldmath \ensuremath{#1}}}
+\renewcommand{\vec}[1]{\boldsymbol{#1}} 
+\newcommand{\vectilde}[1]{\tilde{\boldsymbol{\boldsymbol{#1}}}}
+\newcommand{\tildevarepsilon}{\tilde{\varepsilon}}
+\newcommand{\vecvarepsilon}{\vec{\varepsilon}}
+\newcommand{\vectildevarepsilon}{\tilde{\vec{\varepsilon}}}
+\newcommand{\vectau}{\vec{\tau}}
+\newcommand{\vecalpha}{\vec{\alpha}}
+
+\graphicspath{{imgs/}} 
+
+
+
+\end_preamble
+\options preprint,authoryear
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 1
+\pdf_backref true
+\pdf_pdfusetitle 0
+\pdf_quoted_options "hyperindex,citecolor=blue,linkcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+abovedisplayskip}{3pt}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+belowdisplayskip}{3pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\begin_inset VSpace 1cm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+
+\series bold
+Optimal design of decentralized constructed wetland treatment system under uncertainties
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 1
+width "100line%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "70page%"
+height "0.4pt"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset VSpace 0.5cm
+\end_inset
+
+ 
+\size largest
+IE4100 Progress Report
+\end_layout
+
+\begin_layout Standard
+\align center
+\noindent
+
+\size largest
+
+\begin_inset VSpace 1.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+Yeow Li Teng Cheryl
+\begin_inset Newline newline
+\end_inset
+
+ A0116781A
+\begin_inset Newline newline
+\end_inset
+
+ Mentor: A/P Ng Tsan Sheng, Adam
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%        A thesis presented for the degree of
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%        Doctor of Philosophy
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 0.8cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%        
+\backslash
+includegraphics[width=0.4
+\backslash
+textwidth]{university}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\size larger
+Department of Industrial & Systems Engineering
+\begin_inset Newline newline
+\end_inset
+
+ National University of Singapore
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%        Country
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%        Date
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+begin{frontmatter}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%	  
+\backslash
+title{
+\backslash
+textbf{Optimal design of decentralized constructed wetland treatment system under uncertainties}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+begin{abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+end{abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+begin{keyword}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+end{keyword}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+end{frontmatter}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Constructed wetlands is a wastewater treatment method that makes use of vegetation to treat wastewater. This treatment method requires very little energy and require significantly less human resources as it operates passively, unlike technology in centralized wastewater systems.
+\end_layout
+
+\begin_layout Standard
+Decentralized wastewater management systems such as constructed wetlands are increasingly gaining traction as the costs of construction become comparable to centralized wastewater management systems. This is because of the many advantages decentralized systems give over centralized ones. For one, a decentralized system has more treatment sites, which reduces the impact of the failure of a treatment site. If a centralized treatment plant were to fail, the wastewater collected will accumulate and there is no backup plant available to treat the water. On the other hand, if one treatment site of a decentralized system fails, the wastewater may be rerouted to other sites temporarily, ensuring that the system does not come to a standstill.
+\end_layout
+
+\begin_layout Standard
+While constructed wetlands can essentially be implemented wherever there is space, the maximum effectiveness of using this decentralized wastewater treatment system is only achieved when it is located at an optimal distance to the areas which it serves. The performance of constructed wetlands also depends on whether the size is sufficient to handle the projected wastewater flow rate from the area. In addition, the components of wastewater is easily affected by the source and weather. Due to this natural variation, the pollutant composition in wastewater is not deterministic. The ideal configuration (location and size) of treatment sites from a deterministic optimization model may not be feasible under such uncertainty. Hence, this project aims to show how a probabilistic model may be used in this situation to account for the uncertainty with the application of the formulated model in an area in Mobile, Alabama.
+\end_layout
+
+\begin_layout Section
+Literature Review
+\end_layout
+
+\begin_layout Subsection
+Decentralised wastewater management
+\end_layout
+
+\begin_layout Standard
+Traditional wastewater treatment systems collect wastewater from households and are designed to handle large amounts of wastewater at a central location of the area it serves. With the implementation of centralized treatment systems in many countries, water pollution in those locations have been successfully controlled 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "li2014"
+
+\end_inset
+
+. However, such treatment systems often require technology that are expensive, such as membrane bioreactors. As urbanised areas grow in size and population, the amount of wastewater produced per day in an urban area increases. In addition to the negative consequences of relying on a single location for wastewater treatment 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "wilderer2000,bakir2001"
+
+\end_inset
+
+, a centralised wastewater management system becomes unwieldy and costly to build on a large scale 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "wilderer2000"
+
+\end_inset
+
+. In order to tackle this, decentralised wastewater management systems have been proposed to reduce the distance from the wastewater source to the release point, cutting down on the cost of transporting wastewater to a dedicated facility 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "otterpohl1997,wilderer2000,bakir2001"
+
+\end_inset
+
+. Various case studies have conducted a cost-benefit analysis on the implementation of a centralised wastewater management system against a decentralised one and have concluded that the decentralised wastewater management is generally cheaper to maintain 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "prihandrijanti2008,mawss2015"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Constructed Wetlands
+\end_layout
+
+\begin_layout Standard
+One approach to decentralised wastewater management is the constructed wetlands concept. Essentially, constructed wetlands aim to simulate real wetlands where water flows through and has its nutrients removed via biological processes. In the constructed version, wastewater flows through the wetland to provide the pollutants within as a nutrient source for plant absorption. The end product of wastewater going through these processes is water that meets the standards for release. The use of plants to treat the water allows the procedure of treating wastewater to be more hands off, thus requiring less maintenance. Thus, the costs involved in implementing constructed wetlands is relatively low as it uses the natural ability of plants to treat wastewater 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "kadlec2009,mawss2015"
+
+\end_inset
+
+. However, the cost effectiveness of constructed wetlands is contingent on the following: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+itemsep}{0pt}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+parskip}{0pt}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+parsep}{0pt}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+
+Treatment sites are in optimal locations. 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+
+Treatment sites are of a suitable size to handle the expected wastewater volume from the sources. 
+\end_layout
+
+\begin_layout Standard
+The size of the constructed treatment wetlands has to be big enough to serve the amount of wastewater produced, but not too big as the system may collapse due to a lack of nutrients for the plants towards the end of the wetlands. Additionally, the location of the constructed wetlands has to be taken into consideration to determine the shortest distance of pipes required to link the wastewater sources to the treatment area to balance the cost of transporting wastewater and building the site. 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "mawss2015"
+
+\end_inset
+
+ In order to determine the ideal location and size of constructed wetlands in a defined area, a mathematical model has been developed to represent the problem. Solving this model will give the ideal location and size of constructed wetlands to be designed.
+\end_layout
+
+\begin_layout Subsection
+Process Model for Constructed Wetlands
+\end_layout
+
+\begin_layout Standard
+Over the years, implementation of more treatment wetlands in addition to higher water quality standards have encouraged studies to focus on establishing process design tools for the wetlands. Of all the types of wetlands that have been implemented, the horizontal sub-surface flow (HSSF) constructed wetlands is one of the most common. 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "rousseau2004model"
+
+\end_inset
+
+ recommends the first-order 
+\begin_inset Formula $k$
+\end_inset
+
+-
+\begin_inset Formula $C^*$
+\end_inset
+
+ model for representing the constructed wetlands reaction process as it is a good balance between scientific accuracy and complexity as compared to other models that have been developed.
+\end_layout
+
+\begin_layout Section
+Progress to date
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "section:progress"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection
+Problem statement
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "section:problemstatement"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+placement !htpb
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename CWnetwork.pdf
+	width 70text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Superstructure of a decentralized CW treatment system network
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:network"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In general, a decentralized constructed wetlands system in a region can be represented as in Fig. 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:network"
+
+\end_inset
+
+. Wastewater is generated from the sources 
+\begin_inset Formula $I$
+\end_inset
+
+ and routed to constructed wetlands, where it is treated and discharged or reused on site. Thus, given a set of wastewater sources 
+\begin_inset Formula $I$
+\end_inset
+
+ and a set of potential constructed wetlands locations 
+\begin_inset Formula $J$
+\end_inset
+
+, the ultimate objective is to determine how to link the sources to the constructed wetlands, where the wetlands should be located and the size of the wetlands at the site.
+\end_layout
+
+\begin_layout Standard
+Besides this, in line with regulatory standards for treated water effluent, treatment targets are imposed on a set of pollutants 
+\begin_inset Formula $M$
+\end_inset
+
+. This means that treated water leaving the constructed wetlands must have pollutant concentrations below specified levels. Depending on the intended use for treated water, treatment targets may be adjusted accordingly for each constructed wetlands site. This constraint directly affects the size of the constructed wetlands for a site as the size of the site determines the pollutant removal rate. It also indirectly affects the routing of the wastewater sources to the treatment sites.
+\end_layout
+
+\begin_layout Standard
+Thus, a solution is deemed feasible only when it satisfies all the constraints. However, due to natural variation in the environment and pollutant concentration of the influent wastewater, constructed wetlands may not always effectively remove pollutants. In reality, it is also unlikely that the treated wastewater meets the targets all the time.
+\end_layout
+
+\begin_layout Standard
+Additionally, cost is a major factor for decision makers to take into account hence the best feasible solution should be one that incurs the least cost. The cost consideration affects how the wastewater sources are routed to the treatment sites as the longer the distance, the higher the cost of constructing the pipe to link the source and site up. For the model, the following assumptions are made:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+itemsep}{0pt}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+parskip}{0pt}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+parsep}{0pt}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+
+wastewater from each source 
+\begin_inset Formula $i=1,...,I$
+\end_inset
+
+ can be allocated to multiple constructed wetlands sites and each constructed wetlands can also treat wastewater from multiple wastewater sources. Sewer lines are needed to be constructed between wastewater sources and constructed wetlands. 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+
+for any location 
+\begin_inset Formula $j=1,...,J$
+\end_inset
+
+, if it is determined to construct a constructed wetlands, 
+\begin_inset Formula $K$
+\end_inset
+
+ design options 
+\begin_inset Formula $k=1,...,K$
+\end_inset
+
+ could be selected. Otherwise, we use 
+\begin_inset Formula $k=0$
+\end_inset
+
+ to indicate that this location is not chosen to construct any constructed wetlands. 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+
+a list of 
+\begin_inset Formula $M$
+\end_inset
+
+ pollutants 
+\begin_inset Formula $m=1,...,M$
+\end_inset
+
+ are evaluated. Treatment target 
+\begin_inset Formula $\tau_j^m$
+\end_inset
+
+ is set for each pollutant 
+\begin_inset Formula $m$
+\end_inset
+
+ and each potential site 
+\begin_inset Formula $j$
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Standard
+A basic list of model parameters and decision variables is provided in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "table:modelparameter"
+
+\end_inset
+
+. Other notations would be introduced and defined as per required in the rest of the paper.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float table
+placement !htpb
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setlength{
+\backslash
+extrarowheight}{1.5mm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Notations of model parameters and decision variables
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular 
+<lyxtabular version="3" rows="20" columns="3">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="none" valignment="top" width="1.5cm">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="none" valignment="top" width="16cm">
+<row>
+<cell multicolumn="1" alignment="none" valignment="top" topline="true" leftline="true" usebox="none" special="c">
+\begin_inset Text
+
+\begin_layout Standard
+Indices
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+index of wastewater sources, 
+\begin_inset Formula $i\in\{1,2,...,I\}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $j$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+index of potential CW locations, 
+\begin_inset Formula $j\in\{1,2,...,J\}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $m$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+index of evaluated water pollutants, 
+\begin_inset Formula $m\in\{1,2,...,M\}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $k$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+index of CW construction options, 
+\begin_inset Formula $k\in\{0,1,2,...,K\}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="none" valignment="top" topline="true" leftline="true" usebox="none" special="c">
+\begin_inset Text
+
+\begin_layout Standard
+Model parameters
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $\varepsilon_i^m$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+concentration of pollutant 
+\begin_inset Formula $m$
+\end_inset
+
+ in the wastewater source 
+\begin_inset Formula $i$
+\end_inset
+
+ (mg/m
+\begin_inset Formula $^3$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $\varepsilon_{in,j}^m$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+concentration of pollutant 
+\begin_inset Formula $m$
+\end_inset
+
+ in the influent of CW site 
+\begin_inset Formula $j$
+\end_inset
+
+ (mg/m
+\begin_inset Formula $^3$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $\varepsilon_{out,j}^m$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+concentration of pollutant 
+\begin_inset Formula $m$
+\end_inset
+
+ in the effluent of CW site 
+\begin_inset Formula $j$
+\end_inset
+
+ (mg/m
+\begin_inset Formula $^3$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $\tau_{j}^m$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+treatment target for pollutant 
+\begin_inset Formula $m$
+\end_inset
+
+ in CW site 
+\begin_inset Formula $j$
+\end_inset
+
+ (mg/m
+\begin_inset Formula $^3$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $F_{i}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+total wastewater flow generated by source 
+\begin_inset Formula $i$
+\end_inset
+
+ (m
+\begin_inset Formula $^3$
+\end_inset
+
+/d)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $Q_{jk}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+flow capacity of CW in option 
+\begin_inset Formula $k$
+\end_inset
+
+ for site 
+\begin_inset Formula $j$
+\end_inset
+
+ (m
+\begin_inset Formula $^3$
+\end_inset
+
+/d)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $A_{jk}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+area of CW in option 
+\begin_inset Formula $k$
+\end_inset
+
+ for site 
+\begin_inset Formula $j$
+\end_inset
+
+ (m
+\begin_inset Formula $^2$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $c_{cw,jk}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+construction cost of CW in design option 
+\begin_inset Formula $k$
+\end_inset
+
+ for site 
+\begin_inset Formula $j$
+\end_inset
+
+ ($) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $d_{ij}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+distance between wastewater source 
+\begin_inset Formula $i$
+\end_inset
+
+ and site 
+\begin_inset Formula $j$
+\end_inset
+
+ (m)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $c_s$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+unit construction cost of sewer lines per distance ($/m)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="none" valignment="top" topline="true" leftline="true" usebox="none" special="c">
+\begin_inset Text
+
+\begin_layout Standard
+Decision variables
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $x_{ij}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0 
+\begin_inset Formula $\leq$
+\end_inset
+
+ 
+\begin_inset Formula $x$
+\end_inset
+
+ 
+\begin_inset Formula $\leq$
+\end_inset
+
+ 1, proportion of wastewater flow assigned from wastewater source 
+\begin_inset Formula $i$
+\end_inset
+
+ to the CW in site 
+\begin_inset Formula $j$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $y_{ij}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+binary variable, 
+\begin_inset Formula $y_{ij}=1$
+\end_inset
+
+ if sewer lines are constructed from wastewater source 
+\begin_inset Formula $i$
+\end_inset
+
+ to CW site 
+\begin_inset Formula $j$
+\end_inset
+
+ and 
+\begin_inset Formula $0$
+\end_inset
+
+ otherwise
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset Formula $z_{jk}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+binary variable, 
+\begin_inset Formula $z_{jk}=1$
+\end_inset
+
+ if construction option 
+\begin_inset Formula $k$
+\end_inset
+
+ is chosen for site 
+\begin_inset Formula $j$
+\end_inset
+
+ and 
+\begin_inset Formula $0$
+\end_inset
+
+ otherwise. In particular, 
+\begin_inset Formula $z_{j0}$
+\end_inset
+
+ denotes the choice of not constructing any CWs in site 
+\begin_inset Formula $j$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "table:modelparameter"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Before the uncertainty component is addressed, we may come up with a deterministic model to solve the problem first. The objective of the problem is to minimize the total cost of implementing the system in a region. The following constraints formulate the constructed wetlands construction option, wastewater allocation between sources and constructed wetlands, pollutant removal performance, treatment target fulfillment:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Constructed wetlands design options:
+\series default
+ Let 
+\begin_inset Formula $z_{jk}$
+\end_inset
+
+ be a binary variable that describes the design option 
+\begin_inset Formula $k$
+\end_inset
+
+ selected for the constructed wetlands site 
+\begin_inset Formula $j$
+\end_inset
+
+. In the case where 
+\begin_inset Formula $k=0$
+\end_inset
+
+, there will be no constructed wetlands on the potential site 
+\begin_inset Formula $j$
+\end_inset
+
+. Otherwise, any other values for 
+\begin_inset Formula $k$
+\end_inset
+
+ will correspond to the respective design options available. When 
+\begin_inset Formula $z_{jk} = 1$
+\end_inset
+
+, it means that there will be a constructed wetlands of type 
+\begin_inset Formula $k$
+\end_inset
+
+ at site 
+\begin_inset Formula $j$
+\end_inset
+
+. The different design options result in different construction costs and pollutant removal capacities. To maintain the logic of the problem, only one design option can be selected at each site. Hence, the following constraint is introduced: 
+\begin_inset Formula \begin{equation*}
+	\begin{split}
+	&\sum_{k=0}^{K}z_{jk}=1,~~~\forall j\\
+	&z_{jk}\in\{0,1\},~~~\forall j,k
+	\end{split}
+\end{equation*}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Wastewater allocation from sources to sites:
+\series default
+ Let 
+\begin_inset Formula $y_{ij}$
+\end_inset
+
+ be a binary variable that describes the interconnection between the wastewater source 
+\begin_inset Formula $i$
+\end_inset
+
+ and potential contructed wetlands site 
+\begin_inset Formula $j$
+\end_inset
+
+. When 
+\begin_inset Formula $y_{ij} = 1$
+\end_inset
+
+, wastewater is allowed to flow from source 
+\begin_inset Formula $i$
+\end_inset
+
+ to site 
+\begin_inset Formula $j$
+\end_inset
+
+. Otherwise, 
+\begin_inset Formula $y_{ij} = 0$
+\end_inset
+
+. To ensure that the wastewater is allocated consistently, the total of all the flows from a single source 
+\begin_inset Formula $i$
+\end_inset
+
+ should be equal to the flow generated by source 
+\begin_inset Formula $i$
+\end_inset
+
+. On top of that, the total volume of wastewater flowing into a constructed wetland cannot exceed the design capacity of the constructed wetland. Finally, there should only be wastewater sent to a site if there is a connection (
+\begin_inset Formula $y_{ij} = 1$
+\end_inset
+
+). If 
+\begin_inset Formula $x_{ij}$
+\end_inset
+
+ represents the proportion of wastewater sent from source 
+\begin_inset Formula $i$
+\end_inset
+
+ to site 
+\begin_inset Formula $j$
+\end_inset
+
+, 
+\begin_inset Formula $F_{i}$
+\end_inset
+
+ is the total wastewater flow from source 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $Q_{jk}$
+\end_inset
+
+ is the maximum flow capacity accepted by site 
+\begin_inset Formula $j$
+\end_inset
+
+ with design option 
+\begin_inset Formula $k$
+\end_inset
+
+: 
+\begin_inset Formula \begin{alignat*}{2}
+    &\sum_{i=1}^{I}x_{ij}F_{i}\leq \sum_{k=0}^{K}Q_{jk}z_{jk},~~ &&\forall j\label{eq:CWcapacity}\\
+	&\sum_{j=1}^{J}x_{ij}=1, &&\forall i \nonumber\\
+	&0 \leq F_ix_{ij}\leq F_iy_{ij},&&\forall i,j\nonumber\\
+	& y_{ij}\in\{0,1\}&&\forall i,j\nonumber
+\end{alignat*}
+\end_inset
+
+
+\series bold
+Pollutant removal performance and treatment target fulfillment:
+\series default
+ First, we consider the influent of the constructed wetlands. The water that is entering the constructed wetlands should have the same amount of pollutants as all of the sources that are contributing wastewater to the site. To determine the pollutant concentration in the effluent, we use a first-order 
+\begin_inset Formula $k-C^*$
+\end_inset
+
+ model 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "rousseau2004model"
+
+\end_inset
+
+ to calculate the pollutant removal. Finally, to ensure that treatment targets are met, the effluent pollutant concentrations should be subject to treatment target constraints. 
+\begin_inset Formula \begin{alignat*}{2}
+	&{\sum_{i=1}^{I}F_{i}y_{ij}\varepsilon_{i}^{m}} = \varepsilon_{in,j}^{m}{\sum_{i=1}^{I}F_{i}y_{ij}} &&\forall j,m\\
+	&[\varepsilon_{in,j}^{m}-{c}_{j}^{m*}]\sum_{k=0}^{K}e^{-\frac{A_{jk}}{Q_{jk}}k_{A}^{m}}z_{jk}+c_{j}^{m*} = \varepsilon_{out,j}^{m} &&\forall j,m\\
+	&\varepsilon_{out,j}^{m}\leq \tau_{j}^{m}~~~&&\forall j\\
+\end{alignat*}
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%The following deterministic model is developed from the above constraints. It is a 
+\backslash
+emph{Mixed-Integer Linear Programming} (MILP) problem (Model D):
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula \begin{equation*}\label{modelD}
+\begin{aligned}
+	\text{Model D}:~~&min \sum_{i=1}^{I}\sum_{j=1}^{J}d_{ij}c_s x_{ij} + \sum_{j=1}^{J}\sum_{k=1}^{K}c_{cw,jk}y_{jk}\\~~
+	\mbox{s.t.}~~
+	&\sum_{i=1}^{I} (a_{jk}^m \varepsilon_i^m - b_{ij}^m) z_{ij} - M(1 - y_{jk}) \leq \tau_{net,j}^m \sum_{i=1}^I z_{ij}  && \forall j,k,m\\
+ 	&\sum_{i=1}^{I} z_{ij} \leq \sum_{k=0}^K Q_{jk} y_{jk} && \forall j\\
+	&\sum_{j=1}^J z_{ij} = F_i && \forall i\\
+	&z_{ij} \leq F_i x_{ij} && \forall i,j\\
+	&x_{ij} + y_{j0} \leq 1 && \forall i,j\\
+	&\sum_{k=0}^{K}y_{jk} = 1&&\forall j\\
+	&x_{ij} \in \{0,1\}&&\forall i,j\\
+	&y_{jk} \in \{0,1\}&&\forall j,k\\
+	&z_{ij} \geq 0&&\forall i,j\\
+\end{aligned}
+\end{equation*}
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Case study: a decentralized CWs system for municipal wastewater treatment
+\end_layout
+
+\begin_layout Subsubsection
+Mobile, Alabama
+\end_layout
+
+\begin_layout Standard
+With 412,992 people, Mobile County is the second most populated county within the state Alabama in the United States. The population of Mobile County has been steadily increasing 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "uscb2002census"
+
+\end_inset
+
+. As populations grow, several fringe communities are created. To manage the wastewater produced by such communities, the traditional approach is to link these fringe communities up with long length large diameter pipes to transport all the wastewater to a single municipal wastewater treatment plant to be processed and then released into nearby water sources. The Mobile Area Water & Sewer System (MAWSS) serves approximately 530 square kilometres in Mobile County 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "mawss2015"
+
+\end_inset
+
+, mostly through centralised wastewater treatment facilities. However, annual operations and maintenance costs for such centralised wastewater management systems have been shown to be costlier than decentralised ones, where the wastewater is processed and released within the community 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "mawss2015"
+
+\end_inset
+
+. Thus, implementation of decentralised wastewater management systems such as constructed wetlands are being considered to manage costs in the long term.
+\end_layout
+
+\begin_layout Subsubsection
+Data Collection
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Case Study Area:
+\series default
+
+\begin_inset Float figure
+placement !b
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename blocks.png
+	width 35text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Case study area in Mobile, Alabama.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:blocks"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The site chosen for the case study is near Mobile Regional Airport. It is a suburban area, mostly consisting of residences. As the objective of the project is to show how the optimization model can be applied, we have chosen a smaller area to keep the computation resources required reasonable. Hence, the site has been divided into 14 blocks based on six census tract blocks. The blocks are represented with blue outlines in Fig. 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:blocks"
+
+\end_inset
+
+. Geographic information about the region listed in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "table:geodata"
+
+\end_inset
+
+ was also retrieved from the census. 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "acs2015"
+
+\end_inset
+
+ For each block, we have assumed a point source for the wastewater (see red circles).
+\end_layout
+
+\begin_layout Standard
+Potential sites for the constructed wetlands were identified from Google Maps and represented in Fig. 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:blocks"
+
+\end_inset
+
+ as green rectangles. These areas are empty and thus the construction of wetlands there will impact few residents negatively. A point location is used to represent each of these sites. The coordinates of the potential sites are stated in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "table:cwdata"
+
+\end_inset
+
+. The distances between the wastewater sources and potential sites were calculated as well and stated in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "table:distdata"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Pollutants:
+\series default
+ Once again, to keep the model manageable, we have narrowed down the number of pollutants to three, as seen in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "table:polldata"
+
+\end_inset
+
+. The pollutants have been selected based on the effects of pollution if these substances were not removed. In this case study, we will set the treatment target to be the same regardless of the intended use for the treated water.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Design options:
+\series default
+ We have determined four design options for the constructed wetlands and their respective construction costs can be found in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "table:ccwdata"
+
+\end_inset
+
+. The formula for estimating the cost can be found in 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "kadlec2009"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Sewer pipe construction cost:
+\series default
+ Based on 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "kadlec2009"
+
+\end_inset
+
+, the normal size of sewer pipes for treatment wetlands vary from 
+\begin_inset Formula $10-30 cm$
+\end_inset
+
+ diameter pipes. Hence, the sewer pipe construction cost is estimated to be about 
+\begin_inset Formula $US\$134/m$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "usepa2000"
+
+\end_inset
+
+ after revising to latest prices. 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The above information provides a good set-up to determine optimal locations for constructed wetlands to be built within Mobile, Alabama.
+\end_layout
+
+\begin_layout Section
+Further Directions
+\end_layout
+
+\begin_layout Standard
+Proceeding from here, the next step would be to find a solution for the deterministic model, which will be done using MATLAB. After which, work will commence on developing the probabilistic model and running it.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+section{Conclusions}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Appendix
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Chap:appendix"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float table
+placement !h
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Geographical information about the 14 blocks.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "table:geodata"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Tabular 
+<lyxtabular version="3" rows="1" columns="11">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+csvautotabular
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+data/blockgeo.csv
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float table
+placement !h
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Coordinates of the potential constructed wetlands sites.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "table:cwdata"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Tabular 
+<lyxtabular version="3" rows="1" columns="7">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<row>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+csvautotabular
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+data/cwgeo.csv
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float table
+placement !h
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Distance in 
+\begin_inset Formula $km$
+\end_inset
+
+ between the wastewater sources and potential constructed wetlands sites.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "table:distdata"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Tabular 
+<lyxtabular version="3" rows="1" columns="24">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+csvautotabular
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+data/dist.csv
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float table
+placement !h
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Selected pollutants with the respective indicators coupled with average pollutant concentration in the wastewater source and the treatment targets.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "table:polldata"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 1
+width "100line%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+
+\begin_layout Plain Layout
+ 
+\begin_inset Tabular 
+<lyxtabular version="3" rows="1" columns="9">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+csvautotabular
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+data/pollutants.csv
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float table
+placement !h
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Construction cost of constructed wetlands with four different design options as well as projected area and flow capacity.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "table:ccwdata"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Tabular 
+<lyxtabular version="3" rows="1" columns="7">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" special=" ">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+csvautotabular
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+data/ccw.csv
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+addcontentsline{toc}{chapter}{Appendix}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\renewcommand{\theequation}{A.\arabic{equation}}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{figure}{0}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\renewcommand{\thefigure}{A.\arabic{figure}}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{section}{0}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\renewcommand{\thesection}{A-\arabic{section}}
+\end_inset
+
+ 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+References
+\end_layout
+
+\begin_layout Standard
+ 
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "mobile"
+options "apalike"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
