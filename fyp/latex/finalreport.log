@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.3.23)  24 MAR 2017 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.3.23)  24 MAR 2017 21:36
 entering extended mode
 **./finalreport.tex
 (finalreport.tex
@@ -118,30 +118,32 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count98
 \@thisrulewidth=\dimen121
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip47
-\subfigcapskip=\skip48
-\subfigcaptopadj=\dimen122
-\subfigbottomskip=\skip49
-\subfigcapmargin=\dimen123
-\subfiglabelskip=\skip50
-\c@subfigure=\count99
-\c@lofdepth=\count100
-\c@subtable=\count101
-\c@lotdepth=\count102
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
-\subfig@top=\skip51
-\subfig@bottom=\skip52
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+)
+\c@ContinuedFloat=\count99
+)
+\c@subfigure=\count100
+\c@subtable=\count101
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen124
-\epsfysize=\dimen125
+\epsfxsize=\dimen129
+\epsfysize=\dimen130
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
@@ -194,7 +196,7 @@ G,.JBIG2,.JB2,.eps]
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip53
+\@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -203,49 +205,49 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen126
+\ex@=\dimen131
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen127
+\pmbraise@=\dimen132
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count103
+\inf@bad=\count102
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count104
-\leftroot@=\count105
+\uproot@=\count103
+\leftroot@=\count104
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count106
-\DOTSCASE@=\count107
+\classnum@=\count105
+\DOTSCASE@=\count106
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen128
+\big@size=\dimen133
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count108
-\c@MaxMatrixCols=\count109
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
 \dotsspace@=\muskip10
-\c@parentequation=\count110
-\dspbrk@lvl=\count111
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
 \tag@help=\toks18
-\row@=\count112
-\column@=\count113
-\maxfields@=\count114
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
 \andhelp@=\toks19
-\eqnshift@=\dimen129
-\alignsep@=\dimen130
-\tagshift@=\dimen131
-\tagwidth@=\dimen132
-\totwidth@=\dimen133
-\lineht@=\dimen134
+\eqnshift@=\dimen134
+\alignsep@=\dimen135
+\tagshift@=\dimen136
+\tagwidth@=\dimen137
+\totwidth@=\dimen138
+\lineht@=\dimen139
 \@envbody=\toks20
-\multlinegap=\skip54
-\multlinetaggap=\skip55
+\multlinegap=\skip48
+\multlinetaggap=\skip49
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
@@ -266,30 +268,30 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip56
-\multirow@cntb=\count115
-\multirow@dima=\skip57
-\bigstrutjot=\dimen135
+\multirow@colwidth=\skip50
+\multirow@cntb=\count114
+\multirow@dima=\skip51
+\bigstrutjot=\dimen140
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count116
+\c@tracingmulticols=\count115
 \mult@box=\box32
-\multicol@leftmargin=\dimen136
-\c@unbalance=\count117
-\c@collectmore=\count118
-\doublecol@number=\count119
-\multicoltolerance=\count120
-\multicolpretolerance=\count121
-\full@width=\dimen137
-\page@free=\dimen138
-\premulticols=\dimen139
-\postmulticols=\dimen140
-\multicolsep=\skip58
-\multicolbaselineskip=\skip59
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count116
+\c@collectmore=\count117
+\doublecol@number=\count118
+\multicoltolerance=\count119
+\multicolpretolerance=\count120
+\full@width=\dimen142
+\page@free=\dimen143
+\premulticols=\dimen144
+\postmulticols=\dimen145
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
 \partial@page=\box33
 \last@line=\box34
-\maxbalancingoverflow=\dimen141
+\maxbalancingoverflow=\dimen146
 \mult@rightbox=\box35
 \mult@grightbox=\box36
 \mult@gfirstbox=\box37
@@ -311,14 +313,14 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box53
 \@tempa=\box54
 \@tempa=\box55
-\c@columnbadness=\count122
-\c@finalcolumnbadness=\count123
-\last@try=\dimen142
-\multicolovershoot=\dimen143
-\multicolundershoot=\dimen144
+\c@columnbadness=\count121
+\c@finalcolumnbadness=\count122
+\last@try=\dimen147
+\multicolovershoot=\dimen148
+\multicolundershoot=\dimen149
 \mult@nat@firstbox=\box56
 \colbreak@box=\box57
-\mc@col@check@num=\count124
+\mc@col@check@num=\count123
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -335,10 +337,10 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@cmds=\toks24
 \SOUL@buffer=\toks25
 \SOUL@token=\toks26
-\SOUL@spaceskip=\skip60
-\SOUL@ttwidth=\dimen145
-\SOUL@uldp=\dimen146
-\SOUL@ulht=\dimen147
+\SOUL@spaceskip=\skip54
+\SOUL@ttwidth=\dimen150
+\SOUL@uldp=\dimen151
+\SOUL@ulht=\dimen152
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -353,20 +355,162 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count125
-\Gm@cntv=\count126
-\c@Gm@tempcnt=\count127
-\Gm@bindingoffset=\dimen148
-\Gm@wd@mp=\dimen149
-\Gm@odd@mp=\dimen150
-\Gm@even@mp=\dimen151
-\Gm@layoutwidth=\dimen152
-\Gm@layoutheight=\dimen153
-\Gm@layouthoffset=\dimen154
-\Gm@layoutvoffset=\dimen155
+\Gm@cnth=\count124
+\Gm@cntv=\count125
+\c@Gm@tempcnt=\count126
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
 \Gm@dimlist=\toks27
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen161
+\extrarowheight=\dimen162
+\NC@list=\toks28
+\extratabsurround=\skip55
+\backup@length=\skip56
+)
+\TX@col@width=\dimen163
+\TX@old@table=\dimen164
+\TX@old@col=\dimen165
+\TX@target=\dimen166
+\TX@delta=\dimen167
+\TX@cols=\count127
+\TX@ftn=\toks29
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks30
+\minrowclearance=\skip57
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box58
+\beforetitleunit=\skip58
+\aftertitleunit=\skip59
+\ttl@plus=\dimen168
+\ttl@minus=\dimen169
+\ttl@toksa=\toks31
+\titlewidth=\dimen170
+\titlewidthlast=\dimen171
+\titlewidthfirst=\dimen172
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks32
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\threeparttable\threeparttable.sty
+"
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box59
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count128
+\float@exts=\toks33
+\float@box=\box60
+\@float@everytoks=\toks34
+\@floatcapt=\box61
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count129
+\c@@ppsavesec=\count130
+\c@@ppsaveapp=\count131
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 44.
+\cftparskip=\skip60
+\cftbeforetoctitleskip=\skip61
+\cftaftertoctitleskip=\skip62
+\cftbeforepartskip=\skip63
+\cftpartnumwidth=\skip64
+\cftpartindent=\skip65
+\cftbeforesecskip=\skip66
+\cftsecindent=\skip67
+\cftsecnumwidth=\skip68
+\cftbeforesubsecskip=\skip69
+\cftsubsecindent=\skip70
+\cftsubsecnumwidth=\skip71
+\cftbeforesubsubsecskip=\skip72
+\cftsubsubsecindent=\skip73
+\cftsubsubsecnumwidth=\skip74
+\cftbeforeparaskip=\skip75
+\cftparaindent=\skip76
+\cftparanumwidth=\skip77
+\cftbeforesubparaskip=\skip78
+\cftsubparaindent=\skip79
+\cftsubparanumwidth=\skip80
+\cftbeforeloftitleskip=\skip81
+\cftafterloftitleskip=\skip82
+\cftbeforefigskip=\skip83
+\cftfigindent=\skip84
+\cftfignumwidth=\skip85
+\c@lofdepth=\count132
+\c@lotdepth=\count133
+\cftbeforelottitleskip=\skip86
+\cftafterlottitleskip=\skip87
+\cftbeforetabskip=\skip88
+\cfttabindent=\skip89
+\cfttabnumwidth=\skip90
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\csvsimple\csvsimple.sty"
+Package: csvsimple 2016/07/01 version 1.20 LaTeX CSV file processing
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
+ode.tex"
+\pgfkeys@tmptoks=\toks37
+))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count134
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+\csv@file=\read1
+\c@csvinputline=\count135
+\c@csvrow=\count136
+\c@csvcol=\count137
+\csv@out=\write4
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen173
+\WF@size=\dimen174
+\c@WF@wrappedlines=\count138
+\WF@box=\box62
+\WF@everypar=\toks38
+Package: wrapfig 2003/01/31  v 3.6
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
@@ -398,7 +542,6 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
@@ -406,14 +549,14 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen156
-\Hy@linkcounter=\count128
-\Hy@pagecounter=\count129
+\@linkdim=\dimen175
+\Hy@linkcounter=\count139
+\Hy@pagecounter=\count140
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count130
+\Hy@SavedSpaceFactor=\count141
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -434,16 +577,12 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count131
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
-\Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count142
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen157
-\Fld@menulength=\count132
-\Field@Width=\dimen158
-\Fld@charsize=\dimen159
+\XeTeXLinkMargin=\dimen176
+\Fld@menulength=\count143
+\Field@Width=\dimen177
+\Fld@charsize=\dimen178
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -453,207 +592,75 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count133
-\c@Item=\count134
-\c@Hfootnote=\count135
+\Hy@abspage=\count144
+\c@Item=\count145
+\c@Hfootnote=\count146
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count136
-\c@bookmark@seq@number=\count137
+\Fld@listcount=\count147
+\c@bookmark@seq@number=\count148
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip61
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
-Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen160
-\extrarowheight=\dimen161
-\NC@list=\toks28
-\extratabsurround=\skip62
-\backup@length=\skip63
-)
-\TX@col@width=\dimen162
-\TX@old@table=\dimen163
-\TX@old@col=\dimen164
-\TX@target=\dimen165
-\TX@delta=\dimen166
-\TX@cols=\count138
-\TX@ftn=\toks29
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
-Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks30
-\minrowclearance=\skip64
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box58
-\beforetitleunit=\skip65
-\aftertitleunit=\skip66
-\ttl@plus=\dimen167
-\ttl@minus=\dimen168
-\ttl@toksa=\toks31
-\titlewidth=\dimen169
-\titlewidthlast=\dimen170
-\titlewidthfirst=\dimen171
-
-
-Package titlesec Warning: Non standard sectioning command detected
-(titlesec)                Using default spacing and no format.
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
-Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks32
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\threeparttable\threeparttable.sty
-"
-Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box59
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count139
-\float@exts=\toks33
-\float@box=\box60
-\@float@everytoks=\toks34
-\@floatcapt=\box61
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
-Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count140
-\c@@ppsavesec=\count141
-\c@@ppsaveapp=\count142
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
-Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
-Package tocloft Info: The document has section divisions on input line 44.
-\cftparskip=\skip67
-\cftbeforetoctitleskip=\skip68
-\cftaftertoctitleskip=\skip69
-\cftbeforepartskip=\skip70
-\cftpartnumwidth=\skip71
-\cftpartindent=\skip72
-\cftbeforesecskip=\skip73
-\cftsecindent=\skip74
-\cftsecnumwidth=\skip75
-\cftbeforesubsecskip=\skip76
-\cftsubsecindent=\skip77
-\cftsubsecnumwidth=\skip78
-\cftbeforesubsubsecskip=\skip79
-\cftsubsubsecindent=\skip80
-\cftsubsubsecnumwidth=\skip81
-\cftbeforeparaskip=\skip82
-\cftparaindent=\skip83
-\cftparanumwidth=\skip84
-\cftbeforesubparaskip=\skip85
-\cftsubparaindent=\skip86
-\cftsubparanumwidth=\skip87
-\cftbeforeloftitleskip=\skip88
-\cftafterloftitleskip=\skip89
-\cftbeforefigskip=\skip90
-\cftfigindent=\skip91
-\cftfignumwidth=\skip92
-\cftbeforelottitleskip=\skip93
-\cftafterlottitleskip=\skip94
-\cftbeforetabskip=\skip95
-\cfttabindent=\skip96
-\cfttabnumwidth=\skip97
-\cftbeforesubfigskip=\skip98
-\cftsubfigindent=\skip99
-\cftsubfignumwidth=\skip100
-\cftbeforesubtabskip=\skip101
-\cftsubtabindent=\skip102
-\cftsubtabnumwidth=\skip103
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\csvsimple\csvsimple.sty"
-Package: csvsimple 2016/07/01 version 1.20 LaTeX CSV file processing
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
-ode.tex"
-\pgfkeys@tmptoks=\toks37
-))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count143
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
-Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 69.
-)
-\csv@file=\read1
-\c@csvinputline=\count144
-\c@csvrow=\count145
-\c@csvcol=\count146
-\csv@out=\write4
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
-Package: chngcntr 2009/09/02 v1.0a change counter resetting
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
-\wrapoverhang=\dimen172
-\WF@size=\dimen173
-\c@WF@wrappedlines=\count147
-\WF@box=\box62
-\WF@everypar=\toks38
-Package: wrapfig 2003/01/31  v 3.6
+\Hy@SectionHShift=\skip91
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\block.tss"
 File: block.tss 2016/03/15
 )
-\c@theorem=\count148
-\c@lemma=\count149
-\c@proposition=\count150
-\c@assumption=\count151
+\c@theorem=\count149
+\c@lemma=\count150
+\c@proposition=\count151
+\c@assumption=\count152
 
-(finalreport.aux)
+(finalreport.aux
+
+LaTeX Warning: Label `fig:changi' multiply defined.
+
+)
 \openout1 = `finalreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count152
-\scratchdimen=\dimen174
+\scratchcounter=\count153
+\scratchdimen=\dimen179
 \scratchbox=\box63
-\nofMPsegments=\count153
-\nofMParguments=\count154
+\nofMPsegments=\count154
+\nofMParguments=\count155
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count155
-\MPscratchDim=\dimen175
-\MPnumerator=\count156
-\makeMPintoPDFobject=\count157
+\MPscratchCnt=\count156
+\MPscratchDim=\dimen180
+\MPnumerator=\count157
+\makeMPintoPDFobject=\count158
 \everyMPtoPDFconversion=\toks40
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -689,18 +696,18 @@ LaTeX Font Info:    ... okay on input line 102.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 102.
+Package hyperref Info: Link coloring ON on input line 101.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count158
+\c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 102.
-LaTeX Info: Redefining \pageref on input line 102.
-LaTeX Info: Redefining \nameref on input line 102.
+LaTeX Info: Redefining \ref on input line 101.
+LaTeX Info: Redefining \pageref on input line 101.
+LaTeX Info: Redefining \nameref on input line 101.
 
 (finalreport.out) (finalreport.out)
 \@outlinefile=\write5
@@ -713,19 +720,19 @@ tination with the same identifier (name{page.1}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.157 \end{titlepage}
+l.156 \end{titlepage}
                       [1]
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 176.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 175.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 176.
+LaTeX Font Info:    Try loading font information for U+msa on input line 175.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 176.
+LaTeX Font Info:    Try loading font information for U+msb on input line 175.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -762,123 +769,119 @@ LaTeX Warning: Reference `chap:appendix' on page iv undefined on input line 38.
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 
+l.206 
        [1
 
-] <imgs/changiwrp.jpg, id=290, 487.8225pt x 381.425pt>
+] <imgs/changiwrp.jpg, id=296, 487.8225pt x 381.425pt>
 File: imgs/changiwrp.jpg Graphic file (type jpg)
 
 <use imgs/changiwrp.jpg>
 Package pdftex.def Info: imgs/changiwrp.jpg used on input line 211.
 (pdftex.def)             Requested size: 209.43736pt x 163.75928pt.
- [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
+ [2 <./imgs/changiwrp.jpg>]
+<imgs/centralizedtreatment.png, id=326, 2363.83125pt x 1921.1775pt>
+File: imgs/centralizedtreatment.png Graphic file (type png)
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.216 
-       <./imgs/changiwrp.jpg>] [3] [4] [5]
-<imgs/blocks.png, id=371, 552.1428pt x 938.0646pt>
+<use imgs/centralizedtreatment.png>
+Package pdftex.def Info: imgs/centralizedtreatment.png used on input line 224.
+(pdftex.def)             Requested size: 209.43736pt x 170.20155pt.
+
+<imgs/decentralizedtreatment.png, id=327, 2363.83125pt x 1921.1775pt>
+File: imgs/decentralizedtreatment.png Graphic file (type png)
+
+<use imgs/decentralizedtreatment.png>
+Package pdftex.def Info: imgs/decentralizedtreatment.png used on input line 231
+.
+(pdftex.def)             Requested size: 209.43736pt x 170.20155pt.
+ [3 <./imgs/centralizedtreatment.png (PNG copy)> <./imgs/decentralizedtreatment
+.png (PNG copy)>] [4]
+<imgs/hssf.jpg, id=363, 663.22781pt x 498.36188pt>
+File: imgs/hssf.jpg Graphic file (type jpg)
+ <use imgs/hssf.jpg>
+Package pdftex.def Info: imgs/hssf.jpg used on input line 280.
+(pdftex.def)             Requested size: 209.43736pt x 157.37263pt.
+
+Underfull \hbox (badness 1975) in paragraph at lines 282--282
+[]\OT1/cmr/m/n/10 Figure 4: |A ho-ri-zon-tal sub-surface flow con-
+ []
+
+[5 <./imgs/hssf.jpg>] [6] <imgs/blocks.png, id=391, 552.1428pt x 938.0646pt>
 File: imgs/blocks.png Graphic file (type png)
- <use imgs/blocks.png>
-Package pdftex.def Info: imgs/blocks.png used on input line 259.
+
+<use imgs/blocks.png>
+Package pdftex.def Info: imgs/blocks.png used on input line 308.
 (pdftex.def)             Requested size: 174.53494pt x 296.52249pt.
-
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.266 \subsection{Qualitative model description}
-                                                \label{section:problemstatem...
- <./imgs/blocks.png>] <imgs/CWnetwork.pdf, id=378, 364.86313pt x 253.94875pt>
+ [7 <./imgs/blocks.png>]
+<imgs/CWnetwork.pdf, id=398, 364.86313pt x 253.94875pt>
 File: imgs/CWnetwork.pdf Graphic file (type pdf)
 
 <use imgs/CWnetwork.pdf>
-Package pdftex.def Info: imgs/CWnetwork.pdf used on input line 270.
+Package pdftex.def Info: imgs/CWnetwork.pdf used on input line 319.
 (pdftex.def)             Requested size: 349.06227pt x 242.96266pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.280 
-       <./imgs/CWnetwork.pdf>]
-Overfull \hbox (24.06061pt too wide) in paragraph at lines 300--329
+ [8 <./imgs/CWnetwork.pdf>]
+Overfull \hbox (24.06061pt too wide) in paragraph at lines 349--378
 [][] 
  []
 
-[8] [9pdfTeX warning (ext4): destination with the same identifier (name{table.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.338 \end{align}
-                 ] <imgs/plugflow.png, id=406, 1494.58376pt x 240.9pt>
+[9] [10] <imgs/plugflow.png, id=426, 1494.58376pt x 240.9pt>
 File: imgs/plugflow.png Graphic file (type png)
 
 <use imgs/plugflow.png>
-Package pdftex.def Info: imgs/plugflow.png used on input line 360.
+Package pdftex.def Info: imgs/plugflow.png used on input line 409.
 (pdftex.def)             Requested size: 249.33128pt x 40.1842pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.366 
-       <./imgs/plugflow.png (PNG copy)>] [11] [12]pdfTeX warning (ext4): destin
-ation with the same identifier (name{equation.2.1}) has been already used, dupl
-icate ignored
+ [11 <./imgs/plugflow.png (PNG copy)>] [12] [13]pdfTeX warning (ext4): destinat
+ion with the same identifier (name{equation.2.1}) has been already used, duplic
+ate ignored
 <to be read again> 
                    \relax 
-l.437 \end{align}
+l.486 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437 \end{align}
+l.486 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437 \end{align}
+l.486 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437 \end{align}
+l.486 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437 \end{align}
+l.486 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437 \end{align}
+l.486 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437 \end{align}
+l.486 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437 \end{align}
+l.486 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437 \end{align}
-                  [13]pdfTeX warning (ext4): destination with the same identifi
+l.486 \end{align}
+                  [14]pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.455 \end{align}
+l.504 \end{align}
                  
-Overfull \hbox (24.06061pt too wide) in paragraph at lines 470--491
+Overfull \hbox (24.06061pt too wide) in paragraph at lines 519--540
 [][] 
  []
 
@@ -886,161 +889,143 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
+l.577 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{align}
-                  [14pdfTeX warning (ext4): destination with the same identifie
-r (name{table.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.528 \end{align}
-                 ] [15]
-Overfull \hbox (24.06061pt too wide) in paragraph at lines 538--569
+l.577 \end{align}
+                  [15] [16]
+Overfull \hbox (24.06061pt too wide) in paragraph at lines 587--618
 [][] 
  []
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{table.3}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.573 \setcounter
-                 {equation}{0}]pdfTeX warning (ext4): destination with the same
- identifier (name{equation.2.1}) has been already used, duplicate ignored
+[17]pdfTeX warning (ext4): destination with the same identifier (name{equation.
+2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
+l.651 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{align}
-                  [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+l.651 \end{align}
+                  [18] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
 
  []
 
-<imgs/d.png, id=486, 498.36188pt x 846.91406pt>
+<imgs/d.png, id=505, 498.36188pt x 846.91406pt>
 File: imgs/d.png Graphic file (type png)
  <use imgs/d.png>
-Package pdftex.def Info: imgs/d.png used on input line 645.
+Package pdftex.def Info: imgs/d.png used on input line 694.
 (pdftex.def)             Requested size: 174.53494pt x 296.59236pt.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 670.
+(hyperref)                than one, level fixed on input line 719.
 
-[19] [20pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.696 \clearpage
-                 <./imgs/d.png>] (finalreport.bbl
+[20] [21 <./imgs/d.png>] (finalreport.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 []\OT1/cmr/m/n/12 ABB (2009).  Sin-ga-pore's used-water su-per-highway.  Re-tri
 e-ved from
@@ -1051,100 +1036,63 @@ Missing character: There is no ¡ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[21
+[22
 
-] [22]) [23]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+] [23]) [24]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
- been already used, duplicate ignored
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.760 \newpage
-              pdfTeX warning (ext4): destination with the same identifier (name
-{table.5}) has been already used, duplicate ignored
+[25
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.760 \newpage
-              ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 762.
- [25pdfTeX warning (ext4): destination with the same identifier (name{table.6})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.762 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{table.7}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.762 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{table.8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.762 \end{document}
-                    ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 762.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 811.
+ [26]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 811.
  (finalreport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 762.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 762.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 811.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 811.
+Package rerunfilecheck Info: File `finalreport.out' has not changed.
+(rerunfilecheck)             Checksum: 47F156DA2A29A84F46829511432D1F3E;2778.
 
-
-Package rerunfilecheck Warning: File `finalreport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `finalreport.out':
-(rerunfilecheck)             Before: BF2F5B0CB4934306F200B48F26399D55;2768
-(rerunfilecheck)             After:  B3C615C963CEDA064A37232C4BC56ADD;2839.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 762.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 10273 strings out of 493367
- 157894 string characters out of 3137367
- 276064 words of memory out of 3000000
- 13432 multiletter control sequences out of 15000+200000
+ 11204 strings out of 493367
+ 175760 string characters out of 3137367
+ 293750 words of memory out of 3000000
+ 14358 multiletter control sequences out of 15000+200000
  14140 words of font info for 56 fonts, out of 3000000 for 9000
  1127 hyphenation exceptions out of 8191
- 42i,21n,50p,2142b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsubsection.1.5.1} has been referenced but does
- not exist, replaced by a fixed one
-
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on finalreport.pdf (33 pages, 7849676 bytes).
+ 42i,21n,50p,1370b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on finalreport.pdf (34 pages, 8396487 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 612 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
 

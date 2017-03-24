@@ -8,7 +8,8 @@
 \makeatother
 \bibliographystyle{apalike} 
 \usepackage{booktabs}
-\usepackage{subfigure, epsfig, epstopdf}
+\usepackage{subcaption}
+\usepackage{epsfig, epstopdf}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{mathrsfs}
@@ -18,7 +19,6 @@
 \usepackage{soul}
 \usepackage{setspace}
 \usepackage[left=0.8in,top=1in,right=0.8in,bottom=1in, nohead]{geometry}
-\usepackage[colorlinks=true,backref=true,hyperindex,citecolor=blue,linkcolor=blue]{hyperref}
 \usepackage{natbib}
 \usepackage{tabularx}
 \usepackage{colortbl}
@@ -29,12 +29,12 @@
 \usepackage{float}
 \usepackage{url}
 \usepackage[titletoc,title]{appendix}
-\usepackage[subfigure]{tocloft}
+\usepackage{tocloft}
 \usepackage{booktabs}
 \usepackage{csvsimple}
-\usepackage{hyperref}
 \usepackage{chngcntr}
 \usepackage{wrapfig}
+\usepackage[colorlinks=true,backref=true,hyperindex,citecolor=blue,linkcolor=blue]{hyperref}
 %times new roman
 %\usepackage[T1]{fontenc}
 %\usepackage{newtxmath,newtxtext}
@@ -45,7 +45,6 @@
 
 %\counterwithin*{equation}{section}
 %\counterwithin*{equation}{subsection}
-\renewcommand{\theequation}{\thesection--\arabic{equation}}
 
 \titleformat{\paragraph}[block]{\normalsize\bfseries}{\theparagraph}{1em}{}
 
@@ -206,23 +205,63 @@ As the world becomes more and more urbanized, we are looking at more cities evol
 Traditionally, cities have the bulk of its infrastructure centralized in convenient areas within the city. This trend emerged in the second half of the 19$^{th}$ century amid rising public health concerns, political control interests and capital accumulation \citep{gandy2004, dingle2008}. For example, in Singapore, solid waste is collected across the country and transported to one of the four waste-to-energy plants for disposal via incineration \citep{nea2016}. These plants are all located in the southwest of the country.  In Trondheim, the third most populous city in Norway \citep{statistisk2013}, has two large police stations serving the entire city \citep{politinorway}. Having centralized infrastructure provides benefits that often come with economies of scale. In the case of solid waste management in Singapore, the capital cost of building a waste-to-energy plant does not increase significantly with the increased capacity of the plant, and the capital cost to build a plant that serves a smaller capacity is already very large, hence building a larger plant allows each dollar spent to be stretched further.
 
 \subsection{Wastewater management}
+
 \begin{wrapfigure}{R}{0.45\textwidth}
 	\begin{center}
 		\includegraphics[width=0.42\textwidth]{changiwrp.jpg}
 	\end{center}
 	\caption[A centralized wastewater treatment plant in Singapore.]{A centralized wastewater treatment plant in Singapore. It has a wastewater treatment capacity of 800,000 m$^3/$day. \citep{changiwrp}} 
-\end{wrapfigure}
-In this project, we will focus on the wastewater management infrastructure of a city. As with other infrastructures described earlier, the wastewater treatment network in most cities today are centralized. Such treatment systems collect wastewater from households and are designed to handle large amounts of wastewater at a central location of the area it serves. With the implementation of centralized treatment systems in many countries, water pollution in those locations have been successfully controlled \citep{li2014}. In the past few decades, there has been a paradigm shift in the approach to water management. It is moving towards a stronger focus on how to best allocate water for human needs \citep{gleick2000}. Typically, after treating the wastewater, centralized treatment systems redistribute the water back to the region for reuse or dispose the water into a water body. Additionally, centralized treatment systems require technology that are expensive, such as membrane bioreactors. As urbanised areas grow in size and population, the amount of wastewater produced per day in an urban area increases. Hence, it is important to consider the water allocation and reuse within a region as it is costlier to bring water in from new sources \citep{gleick2000}. In addition to the negative consequences of relying on a single location for wastewater treatment \citep{wilderer2000,bakir2001}, a centralised wastewater management system itself becomes unwieldy and costly to build on a large scale \citep{wilderer2000}. In order to tackle this, decentralised wastewater management systems have been proposed to reduce the distance from the wastewater source to the release point, cutting down on the cost of transporting wastewater to a dedicated facility \citep{otterpohl1997,wilderer2000,bakir2001}. Various case studies have conducted a cost-benefit analysis on the implementation of a centralised wastewater management system against a decentralised one and have concluded that the decentralised wastewater management is generally cheaper to maintain \citep{prihandrijanti2008,mawss2015}. 
+	\label{fig:changi}
+\end{wrapfigure}%
+In this project, we will focus on the wastewater management infrastructure of a city. As with other infrastructures described earlier, the wastewater treatment network in most cities today are centralized. Such treatment systems collect wastewater from households and are designed to handle large amounts of wastewater at a central location of the area it serves. With the implementation of centralized treatment systems in many countries, water pollution in those locations have been successfully controlled \citep{li2014}. In the past few decades, there has been a paradigm shift in the approach to water management. It is moving towards a stronger focus on how to best allocate water for human needs \citep{gleick2000}.
 
-% A decentralized wastewater treatment network approach encourages wastewater to be treated near to the source for reuse in the same area. This removes the need to transport wastewater over large distances and meets the same goal.
 
-\subsection{Constructed wetlands}
-Decentralized wastewater management systems such as constructed wetlands are increasingly gaining traction as the costs of construction become comparable to centralized wastewater management systems. This is because of the many advantages decentralized systems give over centralized ones. For one, a decentralized system has more treatment sites, which reduces the impact of the failure of a treatment site. If a centralized treatment plant were to fail, the wastewater collected will accumulate and there is no backup plant available to treat the water. On the other hand, if one treatment site of a decentralized system fails, the wastewater may be rerouted to other sites temporarily, ensuring that the system does not come to a standstill. 
 
-While constructed wetlands can essentially be implemented wherever there is space, the maximum effectiveness of using this decentralized wastewater treatment system is only achieved when it is located at an optimal distance to the areas which it serves. The performance of constructed wetlands also depends on whether the size is sufficient to handle the projected wastewater flow rate from the area. In addition, the components of wastewater is easily affected by the source and weather. Due to this natural variation, the pollutant composition in wastewater is not deterministic. The ideal configuration (location and size) of treatment sites from a deterministic optimization model may not be feasible under such uncertainty. Hence, this project aims to show how a probabilistic model may be used in this situation to account for the uncertainty with the application of the formulated model in an area in Mobile, Alabama. 
+Typically, after treating the wastewater, centralized treatment systems redistribute the water back to the region for reuse or dispose the water into a water body. Additionally, centralized treatment systems require technology that are expensive, such as membrane bioreactors. As urbanised areas grow in size and population, the amount of wastewater produced per day in an urban area increases. Hence, it is important to consider the water allocation and reuse within a region as it is costlier to bring water in from new sources \citep{gleick2000}. In addition to the negative consequences of relying on a single location for wastewater treatment \citep{wilderer2000,bakir2001}, a centralised wastewater management system itself becomes unwieldy and costly to build on a large scale \citep{wilderer2000}.
 
-%\section{Literature Review}
-\subsection{Decentralised wastewater management}
+\begin{figure}%{R}{0.45\textwidth}
+	\begin{center}
+		\includegraphics[width=0.42\textwidth]{centralizedtreatment.png}
+	\end{center}
+		\caption{A centralized wastewater treatment network.}
+		\label{fig:cennet}
+\end{figure}%
+\begin{figure}%{R}{0.45\textwidth}
+	\begin{center}
+		\includegraphics[width=0.42\textwidth]{decentralizedtreatment.png}
+	\end{center}
+		\caption{A decentralized wastewater treatment network.}
+		\label{fig:decennet}
+\end{figure}
+
+In order to tackle this, decentralized wastewater management systems as in \autoref{fig:decennet} have been proposed to reduce the distance from the wastewater source to the release point, cutting down on the cost of transporting wastewater to a dedicated facility \citep{otterpohl1997,wilderer2000,bakir2001}. A decentralized wastewater treatment network approach encourages wastewater to be treated near to the source for reuse in the same area. To serve an area of the same size as a centralized wastewater system, a decentralized wastewater treatment system needs to have a larger quantity of plants with smaller scale operations. Various case studies have conducted a cost-benefit analysis on the implementation of a centralised wastewater management system against a decentralised one and have concluded that the decentralised wastewater management is generally cheaper to maintain \citep{prihandrijanti2008,mawss2015}. 
+
+
+
+%\begin{figure}
+%	\centering
+%	\subfloat[A centralized wastewater treatment network.\label{subfig:cen}]{ %[t]{0.5\textwidth}
+%		\includegraphics[width=0.42\textwidth]{centralizedtreatment}
+%	}
+%%		\caption{A centralized wastewater treatment network.}
+%%		\label{fig:cennet}
+%%	\end{subfigure}
+%	\hfill
+%	\subfloat[A decentralized wastewater treatment network.\label{subfig:decen}]{ %[t]{0.5\textwidth}
+%		\includegraphics[width=0.42\textwidth]{decentralizedtreatment}
+%	}
+%%		\caption{A decentralized wastewater treatment network.}
+%%		\label{fig:decennet}
+%%	\end{subfigure}
+%	\caption[Wastewater treatment networks.]{Wastewater treatment networks.} 
+%	\label{fig:networks}
+%\end{figure}
+
+%  This removes the need to transport wastewater over large distances and meets the same goal.
+
+\subsection{Decentralized wastewater management}
+%Decentralized wastewater management systems such as constructed wetlands are increasingly gaining traction as the costs of construction become comparable to centralized wastewater management systems. 
+There are many advantages decentralized systems give over centralized ones. For one, a decentralized system has more treatment sites, which reduces the impact of the failure of a single treatment site. If a centralized treatment plant were to fail, the wastewater collected will accumulate and there is no backup plant nearby available to treat the water. On the other hand, if one treatment site of a decentralized system fails, the wastewater may be rerouted to other sites temporarily, ensuring that the system does not come to a standstill. 
 
 \subsection{Constructed Wetlands}
 One approach to decentralised wastewater management is the constructed wetlands concept. Essentially, constructed wetlands aim to simulate real wetlands where water flows through and has its nutrients removed via biological processes. In the constructed version, wastewater flows through the wetland to provide the pollutants within as a nutrient source for plant absorption. The end product of wastewater going through these processes is water that meets the standards for release. The use of plants to treat the water allows the procedure of treating wastewater to be more hands off, thus requiring less maintenance. Thus, the costs involved in implementing constructed wetlands is relatively low as it uses the natural ability of plants to treat wastewater \citep{kadlec2009,mawss2015}. However, the cost effectiveness of constructed wetlands is contingent on the following: 
@@ -235,11 +274,19 @@ One approach to decentralised wastewater management is the constructed wetlands 
 \end{itemize}
 The size of the constructed treatment wetlands has to be big enough to serve the amount of wastewater produced, but not too big as the system may collapse due to a lack of nutrients for the plants towards the end of the wetlands. Additionally, the location of the constructed wetlands has to be taken into consideration to determine the shortest distance of pipes required to link the wastewater sources to the treatment area to balance the cost of transporting wastewater and building the site. \citep{mawss2015} In order to determine the ideal location and size of constructed wetlands in a defined area, a mathematical model has been developed to represent the problem. Solving this model will give the ideal location and size of constructed wetlands to be designed.
 
-\subsubsection{Process Model for Constructed Wetlands}
+\subsubsection{Horizontal sub-surface flow constructed wetlands}
+\begin{wrapfigure}{R}{0.45\textwidth}
+	\begin{center}
+		\includegraphics[width=0.42\textwidth]{hssf.jpg}
+	\end{center}
+	\caption[A horizontal sub-surface flow constructed wetlands in Czech Republic.]{A horizontal sub-surface flow constructed wetlands in Czech Republic. \citep{vymazal2008}} 
+	\label{fig:changi}
+\end{wrapfigure}
 Over the years, implementation of more treatment wetlands in addition to higher water quality standards have encouraged studies to focus on establishing process design tools for the wetlands. Of all the types of wetlands that have been implemented, the horizontal sub-surface flow (HSSF) constructed wetlands is one of the most common. \cite{rousseau2004model} recommends the first-order $k$-$C^*$ model for representing the constructed wetlands reaction process as it is a good balance between scientific accuracy and complexity as compared to other models that have been developed. 
 
 \subsection{Objective}
 %aim
+While constructed wetlands can essentially be implemented wherever there is space, the maximum effectiveness of using this decentralized wastewater treatment system is only achieved when it is located at an optimal distance to the areas which it serves. The performance of constructed wetlands also depends on whether the size is sufficient to handle the projected wastewater flow rate from the area. In addition, the components of wastewater is easily affected by the source and weather. Due to this natural variation, the pollutant composition in wastewater is not deterministic. The ideal configuration (location and size) of treatment sites from a deterministic optimization model may not perform well under such uncertainty. Hence, this project aims to show how a stochastic model may be used in this situation to improve overall performance of the network with the application of the formulated model in an area in Mobile, Alabama. 
 
 \subsection{Significance}
 %of the project
@@ -250,9 +297,12 @@ A case study approach is used to showcase the practical application of an optimi
 
 \subsubsection{Mobile, Alabama}
 With 412,992 people, Mobile County is the second most populated county within Alabama, a state in the United States. The population of Mobile County has been steadily increasing \citep{uscb2002census}. As populations grow, several fringe communities are created. In order to manage the wastewater produced by such communities, the traditional approach is to link these fringe communities up with long length large diameter pipes to transport all the wastewater produced to a single municipal wastewater treatment plant to be processed and then released into nearby water sources. In Mobile, the Mobile Area Water \& Sewer System (MAWSS) serves such fringe communities and overall serves approximately 530 square kilometres in Mobile County \citep{mawss2015}. MAWSS supports the region mostly through centralised wastewater treatment facilities. However, annual operations and maintenance costs for such centralised wastewater management systems have been shown to be costlier than decentralized ones. This is because decentralized treatment systems largely reduce the transport cost incurred and processes wastewater to be released very close to the community \citep{mawss2015}. Thus, implementation of decentralized wastewater management systems such as constructed wetlands are being considered to reduce expenses in the long term. 
+
+Since 1997 
+
 %link to mawss experience with decentralization
 %their problems faced?
-
+%add to fast growing areas of cities without having to introduce new sewer lines
 \subsubsection{Case Study Area}
 \begin{figure}[!htb]
 	\centering
@@ -330,7 +380,7 @@ A basic list of model parameters and decision variables is provided in \autoref{
 	\label{table:modelparameter}
 \end{table}
 
-
+\renewcommand{\theequation}{\thesection--\arabic{equation}}
 \subsubsection{Objective Function}
 For the deterministic case, the objective of the problem is to minimize the total cost of implementing the system in a region. 
 \begin{align}
@@ -702,7 +752,7 @@ Proceeding from here, the next step would be to find a solution for the determin
 \clearpage
 
 \section*{Appendix}
-\label{Chap:appendix}
+\label{section:appendix}
 \addcontentsline{toc}{chapter}{\nameref{chap:appendix}}
 
 \begin{table}[!h]
