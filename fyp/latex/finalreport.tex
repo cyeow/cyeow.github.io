@@ -33,7 +33,8 @@
 \usepackage{booktabs}
 \usepackage{csvsimple}
 \usepackage{hyperref}
-%\usepackage{chngcntr}
+\usepackage{chngcntr}
+\usepackage{wrapfig}
 %times new roman
 %\usepackage[T1]{fontenc}
 %\usepackage{newtxmath,newtxtext}
@@ -44,7 +45,7 @@
 
 %\counterwithin*{equation}{section}
 %\counterwithin*{equation}{subsection}
-
+\renewcommand{\theequation}{\thesection--\arabic{equation}}
 
 \titleformat{\paragraph}[block]{\normalsize\bfseries}{\theparagraph}{1em}{}
 
@@ -170,37 +171,58 @@
 %\end{keyword}
 %\end{frontmatter}
 
-
 \pagenumbering{roman}
+
+\section*{\Large Summary}
+
+\clearpage
+\section*{\Large Acknowledgements}
+%adam, zhao kena
+%zhejun ong
+%abbie?
+%jz, shiok, family
+%friends
+
+\clearpage
 \renewcommand{\cftfigfont}{Figure }
 \renewcommand{\cfttabfont}{Table }
 \tableofcontents
-\listoffigures
-\listoftables
+\clearpage
 
+\listoffigures
+\clearpage
+
+\listoftables
 \clearpage
 
 \pagenumbering{arabic}
 \section{Introduction}
 \subsection{Globalization and rapid urbanization}
-Today, more than half of the world's population, 3.5 billion people, are living in urban areas. By 2050, it is predicted that the proportion of people living in urban areas will rise to 6.5 billion, or 60 percent of the population \citep{wup2014}. This rapid progress in urbanization has been made possible due to advancements in technology and communications worldwide. However, such progress has been achieved at the cost of environmental deterioration, various types of pollution, widening economic disparity, climate change and more \citep{dalal-clayton2002}. The uncertainty surrounding the climate of the future has led to calls for sustainable development. Sustainable development intends for nations to be able to have positive social and economic development while reducing the environmental impact of the actions taken for such progress. Through various conferences and processes such as those arising following the Brundtland Report (1987), nations have since come to an agreement that development should be sustainable. 
+Today, more than half of the world's population, 3.5 billion people, are living in urban areas. By 2050, it is predicted that the proportion of people living in urban areas will rise to 6.5 billion, or 60 percent of the population \citep{wup2014}. This rapid progress in urbanization has been made possible due to advancements in technology and communications worldwide. However, such progress has been achieved at the cost of environmental deterioration, various types of pollution, widening economic disparity, climate change and more \citep{dalal-clayton2002}. The uncertainty surrounding the climate of the future has led to calls for sustainable development. Sustainable development intends for nations to be able to have positive social and economic development while reducing the environmental impact of the actions taken for such progress. Through various conferences and processes such as those arising following the Brundtland Report (\citeyear{brundtland1987}), nations have since come to an agreement that development should be sustainable \citep{dalal-clayton2002}. 
 
-As the world becomes more and more urbanized, we are looking at more cities evolving into megacities, which are cities which have populations of more than 10 million. As of 2014, there are 28 megacities across the globe, and by 2050, there is expected to be 41 megacities in the world \citep{wup2014}. Taking this into consideration together with the uncertain future of our environment, there is a need to plan the growth and development of these cities so that they are sustainable. 
+As the world becomes more and more urbanized, we are looking at more cities evolving into megacities, which are cities which have populations of more than 10 million. As of 2014, there are 28 megacities across the globe, and by 2050, there is expected to be 41 megacities in the world \citep{wup2014}. Although the proportion of people living in megacities only amounts to 6.7\% of the global population, they use 9.3\% of the world's electricity and produce 12.6\% of the world's waste \citep{kennedy2015}. Taking this into consideration together with the uncertain future of our environment, there is a need to plan the growth and development of future megacities so that they are sustainable. 
 
 \subsection{City infrastructure}
-Traditionally, regular sized cities have the bulk of its infrastructure centralized in convenient areas within the city. For example, in Singapore, solid waste is collected across the country and transported to one of the four waste-to-energy plants for disposal via incineration \citep{nea2016}. These plants are all located in the southwest of the country.  In Trondheim, the third most populous city in Norway \citep{statistisk2013}, has two large police stations serving the entire city \citep{politinorway}. Having centralized infrastructure provides benefits that often come with economies of scale. In the case of solid waste management in Singapore, the capital cost of building a waste-to-energy plant does not increase significantly with the increased capacity of the plant, and the capital cost to build a plant that serves a smaller capacity is already very large, hence building a larger plant allows each dollar spent to be stretched further.
+Traditionally, cities have the bulk of its infrastructure centralized in convenient areas within the city. This trend emerged in the second half of the 19$^{th}$ century amid rising public health concerns, political control interests and capital accumulation \citep{gandy2004, dingle2008}. For example, in Singapore, solid waste is collected across the country and transported to one of the four waste-to-energy plants for disposal via incineration \citep{nea2016}. These plants are all located in the southwest of the country.  In Trondheim, the third most populous city in Norway \citep{statistisk2013}, has two large police stations serving the entire city \citep{politinorway}. Having centralized infrastructure provides benefits that often come with economies of scale. In the case of solid waste management in Singapore, the capital cost of building a waste-to-energy plant does not increase significantly with the increased capacity of the plant, and the capital cost to build a plant that serves a smaller capacity is already very large, hence building a larger plant allows each dollar spent to be stretched further.
 
+\subsection{Wastewater management}
+\begin{wrapfigure}{R}{0.45\textwidth}
+	\begin{center}
+		\includegraphics[width=0.42\textwidth]{changiwrp.jpg}
+	\end{center}
+	\caption[A centralized wastewater treatment plant in Singapore.]{A centralized wastewater treatment plant in Singapore. It has a wastewater treatment capacity of 800,000 m$^3/$day. \citep{changiwrp}} 
+\end{wrapfigure}
+In this project, we will focus on the wastewater management infrastructure of a city. As with other infrastructures described earlier, the wastewater treatment network in most cities today are centralized. Such treatment systems collect wastewater from households and are designed to handle large amounts of wastewater at a central location of the area it serves. With the implementation of centralized treatment systems in many countries, water pollution in those locations have been successfully controlled \citep{li2014}. In the past few decades, there has been a paradigm shift in the approach to water management. It is moving towards a stronger focus on how to best allocate water for human needs \citep{gleick2000}. Typically, after treating the wastewater, centralized treatment systems redistribute the water back to the region for reuse or dispose the water into a water body. Additionally, centralized treatment systems require technology that are expensive, such as membrane bioreactors. As urbanised areas grow in size and population, the amount of wastewater produced per day in an urban area increases. Hence, it is important to consider the water allocation and reuse within a region as it is costlier to bring water in from new sources \citep{gleick2000}. In addition to the negative consequences of relying on a single location for wastewater treatment \citep{wilderer2000,bakir2001}, a centralised wastewater management system itself becomes unwieldy and costly to build on a large scale \citep{wilderer2000}. In order to tackle this, decentralised wastewater management systems have been proposed to reduce the distance from the wastewater source to the release point, cutting down on the cost of transporting wastewater to a dedicated facility \citep{otterpohl1997,wilderer2000,bakir2001}. Various case studies have conducted a cost-benefit analysis on the implementation of a centralised wastewater management system against a decentralised one and have concluded that the decentralised wastewater management is generally cheaper to maintain \citep{prihandrijanti2008,mawss2015}. 
 
+% A decentralized wastewater treatment network approach encourages wastewater to be treated near to the source for reuse in the same area. This removes the need to transport wastewater over large distances and meets the same goal.
 
-
-%
+\subsection{Constructed wetlands}
 Decentralized wastewater management systems such as constructed wetlands are increasingly gaining traction as the costs of construction become comparable to centralized wastewater management systems. This is because of the many advantages decentralized systems give over centralized ones. For one, a decentralized system has more treatment sites, which reduces the impact of the failure of a treatment site. If a centralized treatment plant were to fail, the wastewater collected will accumulate and there is no backup plant available to treat the water. On the other hand, if one treatment site of a decentralized system fails, the wastewater may be rerouted to other sites temporarily, ensuring that the system does not come to a standstill. 
 
 While constructed wetlands can essentially be implemented wherever there is space, the maximum effectiveness of using this decentralized wastewater treatment system is only achieved when it is located at an optimal distance to the areas which it serves. The performance of constructed wetlands also depends on whether the size is sufficient to handle the projected wastewater flow rate from the area. In addition, the components of wastewater is easily affected by the source and weather. Due to this natural variation, the pollutant composition in wastewater is not deterministic. The ideal configuration (location and size) of treatment sites from a deterministic optimization model may not be feasible under such uncertainty. Hence, this project aims to show how a probabilistic model may be used in this situation to account for the uncertainty with the application of the formulated model in an area in Mobile, Alabama. 
 
 %\section{Literature Review}
 \subsection{Decentralised wastewater management}
-Traditional wastewater treatment systems collect wastewater from households and are designed to handle large amounts of wastewater at a central location of the area it serves. With the implementation of centralized treatment systems in many countries, water pollution in those locations have been successfully controlled \citep{li2014}. However, such treatment systems often require technology that are expensive, such as membrane bioreactors. As urbanised areas grow in size and population, the amount of wastewater produced per day in an urban area increases. In addition to the negative consequences of relying on a single location for wastewater treatment \citep{wilderer2000,bakir2001}, a centralised wastewater management system becomes unwieldy and costly to build on a large scale \citep{wilderer2000}. In order to tackle this, decentralised wastewater management systems have been proposed to reduce the distance from the wastewater source to the release point, cutting down on the cost of transporting wastewater to a dedicated facility \citep{otterpohl1997,wilderer2000,bakir2001}. Various case studies have conducted a cost-benefit analysis on the implementation of a centralised wastewater management system against a decentralised one and have concluded that the decentralised wastewater management is generally cheaper to maintain \citep{prihandrijanti2008,mawss2015}. 
 
 \subsection{Constructed Wetlands}
 One approach to decentralised wastewater management is the constructed wetlands concept. Essentially, constructed wetlands aim to simulate real wetlands where water flows through and has its nutrients removed via biological processes. In the constructed version, wastewater flows through the wetland to provide the pollutants within as a nutrient source for plant absorption. The end product of wastewater going through these processes is water that meets the standards for release. The use of plants to treat the water allows the procedure of treating wastewater to be more hands off, thus requiring less maintenance. Thus, the costs involved in implementing constructed wetlands is relatively low as it uses the natural ability of plants to treat wastewater \citep{kadlec2009,mawss2015}. However, the cost effectiveness of constructed wetlands is contingent on the following: 
@@ -216,7 +238,13 @@ The size of the constructed treatment wetlands has to be big enough to serve the
 \subsubsection{Process Model for Constructed Wetlands}
 Over the years, implementation of more treatment wetlands in addition to higher water quality standards have encouraged studies to focus on establishing process design tools for the wetlands. Of all the types of wetlands that have been implemented, the horizontal sub-surface flow (HSSF) constructed wetlands is one of the most common. \cite{rousseau2004model} recommends the first-order $k$-$C^*$ model for representing the constructed wetlands reaction process as it is a good balance between scientific accuracy and complexity as compared to other models that have been developed. 
 
-\section{Methodology}\label{section:methodology}
+\subsection{Objective}
+%aim
+
+\subsection{Significance}
+%of the project
+
+\section{Problem formulation}\label{section:problem}
 \subsection{Case study: a decentralized CWs system for municipal wastewater treatment}
 A case study approach is used to showcase the practical application of an optimization model for decentralized CW network to a real-life scenario. In this report, a case study of the optimal location and design size of a constructed wetlands treatment network in Mobile, Alabama.
 
@@ -233,29 +261,9 @@ With 412,992 people, Mobile County is the second most populated county within Al
 	\label{fig:blocks}
 \end{figure}
 
-The site chosen for the case study is near Mobile Regional Airport. It is a suburban area, mostly consisting of residences. As the objective of the project is to show how the optimization model can be applied, we have chosen a smaller area to keep the computation resources required reasonable. Hence, the site has been divided into 14 blocks based on six census tract blocks. The blocks are represented with blue outlines in \autoref{fig:blocks}. Geographic information about the region listed in \autoref{table:geodata} was also retrieved from the census. \citep{acs2015} For each block, we have assumed a point source for the wastewater (see red circles).
+The site chosen for the case study is near Mobile Regional Airport. It is a suburban area, mostly consisting of residences. As the objective of the project is to show how the optimization model can be applied, we have chosen a smaller area to keep the computation resources required reasonable. 
 
-Potential sites for the constructed wetlands were identified from Google Maps and represented in \autoref{fig:blocks} as green rectangles. These areas are uninhabited and thus the construction of wetlands there will impact few residents negatively. A point location is used to represent each of these sites. The coordinates of the potential sites are stated in \autoref{table:cwdata}. The distances between the wastewater sources and potential sites were calculated as well and stated in \autoref{table:distdata}. 
-
-\subsubsection{Pollutant consideration} 
-
-Once again, to keep the model manageable, we have narrowed down the number of pollutants to three, the Biological Oxygen on Demand over 5 days (BOD5), Total Suspended Solids (TSS) and Total Nitrogen (TN). These pollutants have been selected due to their potential impact on the ecosystem if left untreated. BOD5, simply put, is the quantity of oxygen consumed by the aerobic biological activity of microorganisms in the water. It indicates the amount of 
-
- as seen in \autoref{table:polldata}. The pollutants have been selected based on the effects of pollution if these substances were not removed. In this case study, we will set the treatment target to be the same regardless of the intended use for the treated water.
-% add more justification
-
-
-%\textbf{Design options} 
-%
-%The design of the constructed wetlands will be represented by its treatment capacity. That is, the volume of wastewater in a day that the constructed wetlands can treat and meet treatment standards for. In reality, constructed wetlands will not be built to serve the exact amount of water that is allocated, rather they will have a few set designs with defined capacities. Hence, four design options for the constructed wetlands were determined prior to solving the optimization model. The four design options and their respective construction costs, area and volume flow capacities can be found in Table \ref{table:ccwdata}. The formula for estimating the cost based on area can be found in \cite{kadlec2009}.
-%
-%\textbf{Sewer pipe construction cost} 
-%
-%Based on \cite{kadlec2009}, the normal size of sewer pipes for treatment wetlands vary from $10-30 cm$ diameter pipes. Hence, the sewer pipe construction cost is estimated to be about $US\$134/m$ \citep{usepa2000} after revising to latest prices. \\
-%
-%The above information provides a good set-up to determine optimal locations for constructed wetlands to be built within Mobile, Alabama. 
-
-\subsection{Qualitative model formulation}\label{section:problemstatement}
+\subsection{Qualitative model description}\label{section:problemstatement}
 
 \begin{figure}[!htpb]
 	\centering
@@ -271,6 +279,7 @@ Besides this, in line with regulatory standards for treated water effluent, trea
 Thus, a solution is deemed feasible only when it satisfies all the constraints. However, due to natural variation in the environment and pollutant concentration of the influent wastewater, constructed wetlands may not always effectively remove pollutants. In reality, it is also unlikely that the treated wastewater meets the targets all the time. 
 
 Additionally, cost is a major factor for decision makers to take into account hence the best feasible solution should be one that incurs the least cost. The cost consideration affects how the wastewater sources are routed to the treatment sites as the longer the distance, the higher the cost of constructing the pipe to link the source and site up. For the model, the following assumptions are made:
+%explain why operational costs are not going to be considered
 
 \begin{itemize}
 	\setlength{\itemsep}{0pt}
@@ -302,7 +311,7 @@ A basic list of model parameters and decision variables is provided in \autoref{
 		$\varepsilon_i^m$ & concentration of pollutant $m$ in the wastewater source $i$ (mg/m$^3$)\\
 %		$\varepsilon_{in,j}^m$ & concentration of pollutant $m$ in the influent of CW site $j$ (mg/m$^3$)\\
 %		$\varepsilon_{out,j}^m$ & concentration of pollutant $m$ in the effluent of CW site $j$ (mg/m$^3$)\\
-		$\tau_{j}^m$ & treatment target for pollutant $m$ in CW site $j$ (mg/m$^3$)\\
+		$\tau_{j}^m$ & treatment target above background concentration for pollutant $m$ in CW site $j$ (mg/m$^3$)\\
 		$F_{i}$ & total wastewater flow generated by source $i$ (m$^3$/d)\\
 		$Q_{jk}$ &  flow capacity of CW in option $k$ for site $j$ (m$^3$/d)\\
 		$A_{jk}$ & area of CW in option $k$ for site $j$ (m$^2$)\\		
@@ -331,18 +340,47 @@ For the deterministic case, the objective of the problem is to minimize the tota
 \subsubsection{Constraints}
 The following constraints formulate the constructed wetlands design option, wastewater allocation between sources and constructed wetlands, pollutant removal performance and treatment target fulfillment:
 
-\noindent\textbf{Constructed wetlands design options} 
 
-Let $y_{jk}$ be a binary variable that describes the design option $k$ selected for the constructed wetlands site $j$. In the case where $k=0$, there will be no constructed wetlands on the potential site $j$. Otherwise, any other values for $k$ will correspond to the respective design options available. When $y_{jk} = 1$, it means that there will be a constructed wetlands of type $k$ at site $j$. 
+\noindent\textbf{Pollutant removal performance and treatment target fulfillment} 
 
-The different design options result in different construction costs and pollutant removal capacities. At each potential CW site, there can only be one design option selected. Hence, the following constraints are introduced:
-\begin{align}
-	%\begin{split}
-	&\sum_{k=0}^{K}y_{jk}=1&&\forall j\\
-	&y_{jk}\in\{0,1\}&&\forall j,k
-	%\end{split}
+First, we consider the influent of the constructed wetlands. The water that is entering the constructed wetlands should have the same amount of pollutants as all of the sources that are contributing wastewater to the site. So, the concentration of pollutant $m$ in the influent at each potential CW site, $\varepsilon_{in,j}^m$ can be determined with \autoref{eqn:influentformula}.
+\begin{align} \label{eqn:influentformula}
+	&\varepsilon_{in,j}^m = \frac{\varepsilon_i^m \sum_{i=1}^I z_{ij}}{\sum_{i=1}^I z_{ij}} && \forall j
 \end{align}
 
+To determine the pollutant concentration in the effluent, $\varepsilon_{out,j}^m$, we use a first-order $k-C^*$ model \citep{rousseau2004model} to calculate the pollutant removal. The $k-C^*$ model uses a plug-flow reactor model to represent the reactions during the pollutant removal process as depicted in \autoref{fig:plugflow}. The treatment rate of a pollutant $m$ in a HSSF CW with design option $k$ at site $j$ can be represented with a first-order $k-C^*$ model in the following equation:
+\begin{align}
+	\label{eqn:plugflow}
+	&\varepsilon_{out,j}^m - C_j^{m*} = e^{-\frac{A_{jk}}{Q_{jk}}k_A^m} [\varepsilon_{in,j}^m - C_j^{m*}] && \forall j,k,m
+\end{align}
+where $k_A^m$ is the areal rate constant for pollutant $m$.
+
+\begin{figure}[!htpb]
+	\centering
+	\includegraphics[width=0.5\textwidth]{plugflow.png}
+	\caption{Pollutant treatment process}
+	\label{fig:plugflow}
+\end{figure}
+
+The areal rate constant $k_A^m$ is determined empirically for each pollutant and varies depending on the region that the data is collected from. For the purposes of the case study, we will be using $k_A^m$ values based on data from North America as collated by \cite{vymazal2008}. 
+
+As the area $A_{jk}$ and flow capacity $Q_{jk}$ of the CWs are determined beforehand with the various design options, expansion of the right hand side of \autoref{eqn:plugflow} shows that the effluent pollutant concentration is a linear function of the influent pollutant concentration that follows the expression $ax+b$. To simplify the linear program definition, the following parameters will be used in place of the full form of the coefficient: 
+\begin{align}
+	&a_{jk}^m = e^{-\frac{A_{jk}}{Q_{jk}}k_A^m} &&\forall j,k,m\nonumber\\
+	&b_{jk}^m = C^* e^{-\frac{A_{jk}}{Q_{jk}}k_A^m} &&\forall j,k,m\nonumber\\
+	&\varepsilon_{out,j}^m - C_j^{m*} = a_{jk}^m \varepsilon_{in,j}^m + b_{jk}^m && \forall j,k,m \label{eqn:newplugflow}
+\end{align}
+
+With the simplified parameters, \autoref{eqn:plugflow} can now be represented with \autoref{eqn:newplugflow}. After the wastewater is treated, the effluent is expected to meet pollutant concentration targets, $\tau_j^m$. Since the treatment targets are set at a value above the background concentration, the constraint will be as follows:
+\begin{align}
+	&\varepsilon_{out,j}^m - C_j^{m*} \leq \tau_j^m && \forall j,m \label{eqn:target}
+\end{align}
+
+Combining Equations \ref{eqn:influentformula}, \ref{eqn:newplugflow} and \ref{eqn:target}, we will have a constraint that ensures the effluent pollutant concentration is under the treatment target. The nonlinearity in the constraint was resolved by introducing a Big M. In our model, the Big M is calculated using the %fill in
+\begin{align}
+	&\sum_{i=1}^{I} (a_{jk}^m \varepsilon_i^m + b_{jk}^m) z_{ij} - M_1(1 - y_{jk}) \leq \tau_j^m \sum_{i=1}^I z_{ij}  && \forall j,k,m
+\end{align}
+\\
 \noindent\textbf{Wastewater allocation from sources to sites} 
 
 Let $x_{ij}$ be a binary variable that describes the interconnection between the wastewater source $i$ and potential contructed wetlands site $j$. When $x_{ij} = 1$, there is a pipe constructed between wastewater source $i$ and potential constructed wetlands site $j$. Wastewater is allowed to flow from source $i$ to site $j$. Otherwise, when $x_{ij} = 0$, there is no pipe connecting wastewater source $i$ and potential constructed wetlands site $j$. 
@@ -358,36 +396,16 @@ If $z_{ij}$ represents the volume of wastewater sent from source $i$ to site $j$
 	&z_{ij} \geq 0 && \forall i,j %\nonumber
 \end{align}
 
-\noindent\textbf{Pollutant removal performance and treatment target fulfillment} 
+\noindent\textbf{Constructed wetlands design options} 
 
-First, we consider the influent of the constructed wetlands. The water that is entering the constructed wetlands should have the same amount of pollutants as all of the sources that are contributing wastewater to the site. To determine the pollutant concentration in the effluent, we use a first-order $k-C^*$ model \citep{rousseau2004model} to calculate the pollutant removal. 
+Let $y_{jk}$ be a binary variable that describes the design option $k$ selected for the constructed wetlands site $j$. In the case where $k=0$, there will be no constructed wetlands on the potential site $j$. Otherwise, any other values for $k$ will correspond to the respective design options available. When $y_{jk} = 1$, it means that there will be a constructed wetlands of type $k$ at site $j$. 
 
-The treatment rate of a pollutant in a HSSF CW can be represented with a first-order $k-C^*$ model in the following equation:
-\begin{equation}
-	\label{eqn:plugflow}
-	\frac{C_{out} - C^*}{C_{in} - C^*} = e^{-\frac{A}{Q}k_A}\\
-\end{equation}
-where $C_{in}$ is the concentration of the pollutant in the influent, $C_{out}$ is the concentration of the pollutant in the effluent, $C^*$ is the background concentration of the pollutant in the water, $A$ is the area of the treatment site, $Q$ is the flow capacity of the treatment site and $k_A$ is the areal rate constant.
-
-The areal rate constant $k_A$ is determined empirically for each pollutant and varies depending on the region that the data is collected from. For the purposes of the case study, we will be using $k_A$ values based on data from North America as collated by \cite{vymazal2008}. As the area $A$ and flow capacity $Q$ of the CWs are determined beforehand using the various design options, the pollutant treatment rate can be reduced to a constant, which simplifies the $k-C^*$ model. In the deterministic model, we will be representing the treatment rate with an array of constants, $a_{jk}^m$. Therefore, the treatment rate can be treated as if the process is a linear plug-flow reactor that follows the linear expression $ax+b$ as in \autoref{fig:plugflow}. 
-
-\begin{figure}[!htpb]
-	\centering
-	\includegraphics[width=0.5\textwidth]{plugflow.pdf}
-	\caption{Pollutant treatment process}
-	\label{fig:plugflow}
-\end{figure}
-Where $\varepsilon_{in,j}^m$ is the concentration of pollutant $m$ in the influent at potential CW site $j$ and $\varepsilon_{out,j}$ is the concentration of pollutant $m$ in the effluent at potential CW site $j$.
-
-Linearization of \autoref{eqn:plugflow} also results in a constant for the background concentration $C^*$. To address this, an array constant $b_{jk}^m$ will be added to the effluent concentration.
-\begin{align*}
-	&a_{jk}^m = e^{-\frac{A_{jk}}{Q_{jk}}k_A^m} &&\forall j,k,m\\
-	&b_{jk}^m = C^* e^{-\frac{A_{jk}}{Q_{jk}}k_A^m} &&\forall j,k,m
-\end{align*}
-
-Finally, the effluent pollutant concentrations should meet treatment targets $\tau_j^m$. The following constraint combines the treatment rate with the treatment target constraint:
+The different design options result in different construction costs and pollutant removal capacities. At each potential CW site, there can only be one design option selected. Hence, the following constraints are introduced:
 \begin{align}
-	&\sum_{i=1}^{I} (a_{jk}^m \varepsilon_i^m + b_{jk}^m) z_{ij} - M_1(1 - y_{jk}) \leq \tau_j^m \sum_{i=1}^I z_{ij}  && \forall j,k,m
+	%\begin{split}
+	&\sum_{k=0}^{K}y_{jk}=1&&\forall j\\
+	&y_{jk}\in\{0,1\}&&\forall j,k
+	%\end{split}
 \end{align}
  
 %		$a_{jk}^m$ & areal rate constant coefficient for option $k$ at site $j$ for pollutant $m$\\
@@ -401,6 +419,7 @@ Finally, the effluent pollutant concentrations should meet treatment targets $\t
 
 The following deterministic model is developed from the above constraints. It is a \emph{Mixed-Integer Linear Programming} (MILP) problem (Model D):
 \setcounter{equation}{0}
+\counterwithout{equation}{section}
 %\begin{equation}\label{modelD}
 %\begin{aligned}
 \begin{align}\label{model:D}
@@ -418,11 +437,32 @@ The following deterministic model is developed from the above constraints. It is
 \end{align}
 %\end{aligned}
 %\end{equation}
+\renewcommand{\theequation}{\thesection--\arabic{equation}}
 
-%\subsubsection{Results}\label{modeldresults}
 
 \pagebreak
-\subsection{Stochastic models}\label{stomodels}
+\subsection{Two-stage stochastic model}\label{stomodel}
+%-	Justify why stochastic needs to be considered
+%-	Why we are only going to use one stochastic variable
+%-	How to extend deterministic to the stochastic model? 
+In a real situation, the pollutant loading of wastewater is uncertain as they fluctuate depending on the actual weather, activities carried out for the day (laundry, showers, etc.) and other reasons. Hence, the CW network in the solution for the deterministic model may not be able to perform consistently under uncertain influent pollutant concentrations. As we are considering a long run average, we will keep the total wastewater volume per day produced by each wastewater source $i$ constant. 
+%insert stochastic model
+
+\begin{align}
+	\text{Model S}:~~&max~\bP(\tilde{\varepsilon} \leq \tau) \nonumber\\~~
+	\mbox{s.t.}~~
+	&\sum 
+\end{align}
+
+\subsection{Sample average approximation}
+% two-stage  using SAA to estimate the probability
+%two ways
+% max avg success
+% min avg shortfall
+%
+
+\subsubsection{Maximizing average success}\label{maxsuccess}
+%explain formulation
 
 \begin{table}[!htpb]
 	\setlength{\extrarowheight}{1.5mm}
@@ -441,6 +481,8 @@ The following deterministic model is developed from the above constraints. It is
 		\hline
 		\multicolumn{2}{|c|}{Decision variables}\\
 		\hline	
+		$x_{ij}$ & binary variable, $x_{ij}=1$ if sewer lines are constructed from wastewater source $i$ to CW site $j$ and $0$ otherwise\\
+		$y_{jk}$ & binary variable, $y_{jk}=1$ if construction option $k$ is chosen for site $j$ and $0$ otherwise. In particular, $y_{j0}$ denotes the choice of not constructing any CWs in site $j$\\
 		$z_{ij}^n$ & volume of wastewater flow assigned from wastewater source $i$ to the CW in site $j$ in scenario $n$  (m$^3$)\\
 		$\gamma^n$ & binary variable, $\gamma^n = 1$ if all pollutants in all effluents $\varepsilon_{out,j}^mn$ for scenario $n$ meet the treatment target $\tau_j^m$\\
 		$\lambda_{ijk}^n$ & variable for the McCormick envelope for the bilinear term $y_{jk}$ and $z_{ij}$\\ 
@@ -449,10 +491,12 @@ The following deterministic model is developed from the above constraints. It is
 
 	\label{table:modelparameters1}
 \end{table}
-\pagebreak
-\begin{equation*}\label{modelS1}
-\begin{aligned}
-	\text{Model S1}:~~&max ~ \frac{1}{N}\sum_{n=1}^N \gamma^n \\~~
+\setcounter{equation}{0}
+\counterwithout{equation}{section}
+\begin{align}\label{modelS1}
+%\begin{equation}\label{modelS1}
+%\begin{aligned}
+	\text{Model S1}:~~&max ~ \frac{1}{N}\sum_{n=1}^N \gamma^n \nonumber \\~~
 	\mbox{s.t.}~~
 	%gamma constraint
 %	&\varepsilon_{out,j}^{mn} - \tau_j^m + M_1(\gamma^n - 1) \leq 0 && \forall j,m,n\\
@@ -478,51 +522,60 @@ The following deterministic model is developed from the above constraints. It is
 	&x_{ij} \in \{0,1\}&&\forall i,j\\
 	&y_{jk} \in \{0,1\}&&\forall j,k\\
 	%nonnegative constraint
-	&z_{ij}^n \geq 0&&\forall i,j,n\\ 
-\end{aligned}
-\end{equation*}
+	&z_{ij}^n \geq 0&&\forall i,j,n
+%\end{aligned}
+%\end{equation}
+\end{align}
+\renewcommand{\theequation}{\thesection--\arabic{equation}}
+
 \newpage
+\subsubsection{Minimizing Pollutant Shortfall}\label{minshoftfall}
+%describe
+
 \begin{table}[!htpb]
 	\setlength{\extrarowheight}{1.5mm}
 	\caption{Notations of model parameters and decision variables}
 	\begin{tabular}{|p{1.5cm} p{16cm}|}
-		\hline
-		\multicolumn{2}{|c|}{Indices} \\
-		\hline
-		$i$ & index of wastewater sources, $i\in\{1,2,...,I\}$\\
-		$j$ & index of potential CW locations, $j\in\{1,2,...,J\}$ \\
-		$m$ & index of evaluated water pollutants, $m\in\{1,2,...,M\}$\\
-		$k$ & index of CW construction options, $k\in\{0,1,2,...,K\}$\\
-		$n$ & index of scenarios to be generated, $n\in\{1,2,...,N\}$\\
-		\hline
-		\multicolumn{2}{|c|}{Model parameters} \\
-		\hline
-		$\varepsilon_i^{mn}$ & concentration of pollutant $m$ in the wastewater source $i$ for scenario $n$ (mg/m$^3$)\\
-%		$\varepsilon_{in,j}^m$ & concentration of pollutant $m$ in the influent of CW site $j$ (mg/m$^3$)\\
-%		$\varepsilon_{out,j}^m$ & concentration of pollutant $m$ in the effluent of CW site $j$ (mg/m$^3$)\\
-		$\tau_{j}^m$ & treatment target for pollutant $m$ in CW site $j$ (mg/m$^3$)\\
-		$F_{i}$ & total wastewater flow generated by source $i$ (m$^3$/d)\\
-		$Q_{jk}$ &  flow capacity of CW in option $k$ for site $j$ (m$^3$/d)\\
-		$A_{jk}$ & area of CW in option $k$ for site $j$ (m$^2$)\\		
-		$c_{cw,jk}$ & construction cost of CW in design option $k$ for site $j$ (\$) \\	
-		$d_{ij}$ & distance between wastewater source $i$ and site $j$ (m)\\
-		$c_s$ & unit construction cost of sewer lines per distance (\$/m)\\
+%		\hline
+%		\multicolumn{2}{|c|}{Indices} \\
+%		\hline
+%		$i$ & index of wastewater sources, $i\in\{1,2,...,I\}$\\
+%		$j$ & index of potential CW locations, $j\in\{1,2,...,J\}$ \\
+%		$m$ & index of evaluated water pollutants, $m\in\{1,2,...,M\}$\\
+%		$k$ & index of CW construction options, $k\in\{0,1,2,...,K\}$\\
+%		$n$ & index of scenarios to be generated, $n\in\{1,2,...,N\}$\\
+%		\hline
+%		\multicolumn{2}{|c|}{Model parameters} \\
+%		\hline
+%		$\varepsilon_i^{mn}$ & concentration of pollutant $m$ in the wastewater source $i$ for scenario $n$ (mg/m$^3$)\\
+%%		$\varepsilon_{in,j}^m$ & concentration of pollutant $m$ in the influent of CW site $j$ (mg/m$^3$)\\
+%%		$\varepsilon_{out,j}^m$ & concentration of pollutant $m$ in the effluent of CW site $j$ (mg/m$^3$)\\
+%		$\tau_{j}^m$ & treatment target for pollutant $m$ in CW site $j$ (mg/m$^3$)\\
+%		$F_{i}$ & total wastewater flow generated by source $i$ (m$^3$/d)\\
+%		$Q_{jk}$ &  flow capacity of CW in option $k$ for site $j$ (m$^3$/d)\\
+%		$A_{jk}$ & area of CW in option $k$ for site $j$ (m$^2$)\\		
+%		$c_{cw,jk}$ & construction cost of CW in design option $k$ for site $j$ (\$) \\	
+%		$d_{ij}$ & distance between wastewater source $i$ and site $j$ (m)\\
+%		$c_s$ & unit construction cost of sewer lines per distance (\$/m)\\
 		\hline
 		\multicolumn{2}{|c|}{Decision variables}\\
 		\hline	
 		$x_{ij}$ & binary variable, $x_{ij}=1$ if sewer lines are constructed from wastewater source $i$ to CW site $j$ and $0$ otherwise\\
 		$y_{jk}$ & binary variable, $y_{jk}=1$ if construction option $k$ is chosen for site $j$ and $0$ otherwise. In particular, $y_{j0}$ denotes the choice of not constructing any CWs in site $j$\\
 		$z_{ij}^n$ & volume of wastewater flow assigned from wastewater source $i$ to the CW in site $j$ in scenario $n$  (m$^3$)\\
-		$\eta^n$ & largest pollutant treatment shortfall mass in scenario $n$ (mg)\\
+		$\eta^{mn}$ & largest pollutant treatment shortfall mass for pollutant $m$ in scenario $n$ (mg)\\
 		\hline	
 	\end{tabular}
 
 	\label{table:modelparameters2}
 \end{table}
 \pagebreak
-\begin{equation*}\label{modelS2}
-\begin{aligned}
-	\text{Model S2}:~~&min ~ \frac{1}{MN}\sum_{m=1}^M\sum_{n=1}^N \frac{\eta^{mn}}{\tau_j^m \sum_{i=1}^I F_i} \\~~
+\setcounter{equation}{0}
+\counterwithout{equation}{section}
+\begin{align}\label{model:S2}
+%\begin{equation*}\label{modelS2}
+%\begin{aligned}
+	\text{Model S2}:~~&min ~ \frac{1}{MN}\sum_{m=1}^M\sum_{n=1}^N \frac{\eta^{mn}}{\tau_j^m \sum_{i=1}^I F_i} \nonumber\\~~
 	\mbox{s.t.}~~
 	%pollutant treatment constraint
 	&\sum_{i=1}^I (a_{jk}^m \varepsilon_i^{mn} + b_{jk}^m - \tau_j^m) z_{ij}^n - M_3 (1 - y_{jk})\leq \eta^{mn} && \forall j,k,m,n\\	
@@ -544,17 +597,110 @@ The following deterministic model is developed from the above constraints. It is
 	%nonnegative constraint
 	&z_{ij}^n \geq 0&&\forall i,j,n\\ 
 	&\eta^{mn} \geq 0&&\forall n\\
-\end{aligned}
-\end{equation*}
+%\end{aligned}
+%\end{equation*}
+\end{align}
+\renewcommand{\theequation}{\thesection--\arabic{equation}}
 \newpage
 
+\subsubsection{Scenario construction}\label{scengen}
+%realizations
+%excel
 
-\section{Further Directions}
+\section{Case study}
+%data set up
+%any explanations
+The site has been divided into 14 blocks based on six census tract blocks. The blocks are represented with blue outlines in \autoref{fig:blocks}. Geographic information about the region listed in \autoref{table:geodata} was also retrieved from the census. \citep{acs2015} For each block, we have assumed a point source for the wastewater (see red circles).
+
+Potential sites for the constructed wetlands were identified from Google Maps and represented in \autoref{fig:blocks} as green rectangles. These areas are uninhabited and thus the construction of wetlands there will impact few residents negatively. A point location is used to represent each of these sites. The coordinates of the potential sites are stated in \autoref{table:cwdata}. The distances between the wastewater sources and potential sites were calculated as well and stated in \autoref{table:distdata}. 
+
+\subsection{Pollutant consideration} 
+Once again, to keep the model manageable, we have narrowed down the number of pollutants to three, the Biological Oxygen on Demand over 5 days (BOD$_5$), Total Suspended Solids (TSS) and Total Nitrogen (TN). These pollutants have been selected due to their potential impact on the ecosystem if left untreated. 
+
+ as seen in \autoref{table:polldata}. The pollutants have been selected based on the effects of pollution if these substances were not removed. In this case study, we will set the treatment target to be the same regardless of the intended use for the treated water.
+
+\noindent\textbf{Biological oxygen demand over 5 days}
+
+BOD$_5$ measures the quantity of oxygen consumed by the aerobic biological activity of microorganisms in the water. This gives an indication of the amount of biological content in the water. High BOD$_5$ values indicates that there are a lot of microorganisms present in the water 
+
+\noindent\textbf{Total suspended solids}
+
+\noindent\textbf{Total nitrogen}
+
+% add more justification
+
+
+\subsection{Design options} 
+The design of the constructed wetlands will be represented by its treatment capacity. That is, the volume of wastewater in a day that the constructed wetlands can treat and meet treatment standards for. In reality, constructed wetlands will not be built to serve the exact amount of water that is allocated, rather they will have a few set designs with defined capacities. Hence, four design options for the constructed wetlands were determined prior to solving the optimization model. The four design options and their respective construction costs, area and volume flow capacities can be found in Table \ref{table:ccwdata}. The formula for estimating the cost based on area can be found in \cite{kadlec2009}.
+
+\subsection{Sewer pipe construction cost} 
+Based on \cite{kadlec2009}, the normal size of sewer pipes for treatment wetlands vary from $10-30 cm$ diameter pipes. Hence, the sewer pipe construction cost is estimated to be about $US\$134/m$ \citep{usepa2000} after revising to latest prices. \\
+
+The above information provides a good set-up to determine optimal locations for constructed wetlands to be built within Mobile, Alabama. 
+
+\section{Results}
+\subsection{Deterministic model, Model D}
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.35\textwidth]{d.png}
+	\caption{Proposed CW network from Model D}
+	\label{fig:networkd}
+\end{figure}
+
+The total cost of Model D is \$ 3.849 million, and the proposed number of CWs to be built is 3.
+
+%\begin{table}[!h]
+%	\caption{CW design options proposed from solving Model D.}
+%	\label{table:resultscwd}
+%	\centering
+%	\makebox[\linewidth]{
+%	\begin{tabular}{c c c c}
+%		\csvautotabular{data/resultsd.csv}
+%	\end{tabular}
+%	}
+%\end{table}
+
+\subsection{Stochastic model: maximizing average success, Model S1}
+%insert graphic
+
+\subsection{Stochastic model: minimizing pollutant shortfall, Model S2}
+
+
+\section{Computational study}
+\subsubsection{Out-of-sample performance}
+%model d s1 s2
+%\begin{table}[!h]
+%	\caption{Selected pollutants with the respective indicators coupled with average pollutant concentration in the wastewater source and the treatment targets.}
+%	\label{table:polldata}
+%	\centering
+%	\makebox[\linewidth]{
+%	\begin{tabular}{c c c c c}
+%		\csvautotabular{data/pollutants.csv}
+%	\end{tabular}
+%	}
+%\end{table}
+%average success
+%pollutant shortfall
+\subsubsection{Increasing budget}
+%how much can quality be improved by?
+
+\section{Discussion}
+%analysis
+
+\section{Conclusion}
+
+\subsection{Further Directions}
 Proceeding from here, the next step would be to find a solution for the deterministic model, which will be done using MATLAB. After which, work will commence on developing the probabilistic model and running it. 
 
 
-%\section{Conclusions}
 \clearpage
+
+\section*{References}
+\label{sec:references}
+\addcontentsline{toc}{chapter}{\nameref{sec:references}}
+\bibliography{mobile}
+\clearpage
+
 \section*{Appendix}
 \label{Chap:appendix}
 \addcontentsline{toc}{chapter}{\nameref{chap:appendix}}
@@ -612,12 +758,6 @@ Proceeding from here, the next step would be to find a solution for the determin
 \setcounter{section}{0}
 \renewcommand{\thesection}{A-\arabic{section}}
 \newpage
-
-\clearpage
-\section*{References}
-\label{sec:references}
-\addcontentsline{toc}{chapter}{\nameref{sec:references}}
-\bibliography{mobile}
 
 \end{document}
 

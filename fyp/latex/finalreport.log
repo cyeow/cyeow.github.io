@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.3.7)  23 MAR 2017 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.3.23)  24 MAR 2017 14:23
 entering extended mode
 **./finalreport.tex
 (finalreport.tex
-LaTeX2e <2017/01/01> patch level 1
+LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 72 language(s) loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\elsarticle\elsarticle.cls"
 Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
@@ -174,11 +174,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -368,7 +368,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -411,48 +411,48 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 \Hy@pagecounter=\count129
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count130
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4362.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
 
 
 Package hyperref Warning: Unexpected value `true'
 (hyperref)                of option `backref' instead of
 (hyperref)                `section', `slide', `page', `none',
-(hyperref)                or `false' on input line 4362.
+(hyperref)                or `false' on input line 4374.
 
-Package hyperref Info: Option `hyperindex' set `true' on input line 4362.
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
+Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count131
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5088.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen157
 \Fld@menulength=\count132
 \Field@Width=\dimen158
 \Fld@charsize=\dimen159
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring ON on input line 6360.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
 \Hy@abspage=\count133
 \c@Item=\count134
 \c@Hfootnote=\count135
@@ -461,7 +461,7 @@ LaTeX Info: Redefining \pageref on input line 6416.
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count136
 \c@bookmark@seq@number=\count137
 
@@ -603,45 +603,56 @@ Package shellesc Info: Restricted shell escape enabled on input line 69.
 \c@csvcol=\count146
 \csv@out=\write4
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen172
+\WF@size=\dimen173
+\c@WF@wrappedlines=\count147
+\WF@box=\box62
+\WF@everypar=\toks38
+Package: wrapfig 2003/01/31  v 3.6
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\block.tss"
 File: block.tss 2016/03/15
 )
-\c@theorem=\count147
-\c@lemma=\count148
-\c@proposition=\count149
-\c@assumption=\count150
+\c@theorem=\count148
+\c@lemma=\count149
+\c@proposition=\count150
+\c@assumption=\count151
 
 (finalreport.aux)
 \openout1 = `finalreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count151
-\scratchdimen=\dimen172
-\scratchbox=\box62
-\nofMPsegments=\count152
-\nofMParguments=\count153
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count154
-\MPscratchDim=\dimen173
-\MPnumerator=\count155
-\makeMPintoPDFobject=\count156
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count152
+\scratchdimen=\dimen174
+\scratchbox=\box63
+\nofMPsegments=\count153
+\nofMParguments=\count154
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count155
+\MPscratchDim=\dimen175
+\MPnumerator=\count156
+\makeMPintoPDFobject=\count157
+\everyMPtoPDFconversion=\toks40
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -677,19 +688,19 @@ LaTeX Font Info:    ... okay on input line 101.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring ON on input line 101.
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring ON on input line 102.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count157
+\c@section@level=\count158
 )
-LaTeX Info: Redefining \ref on input line 101.
-LaTeX Info: Redefining \pageref on input line 101.
-LaTeX Info: Redefining \nameref on input line 101.
+LaTeX Info: Redefining \ref on input line 102.
+LaTeX Info: Redefining \pageref on input line 102.
+LaTeX Info: Redefining \nameref on input line 102.
 
 (finalreport.out) (finalreport.out)
 \@outlinefile=\write5
@@ -702,75 +713,98 @@ tination with the same identifier (name{page.1}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.156 \end{titlepage}
-                      [1] (finalreport.toc
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 1.
+l.157 \end{titlepage}
+                      [1]
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 176.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 176.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+LaTeX Font Info:    Try loading font information for U+msb on input line 176.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) [1] [2
 
-LaTeX Warning: Reference `chap:appendix' on page i undefined on input line 18.
+]
+(finalreport.toc [3
+
+]
+
+Package hyperref Warning: Suppressing empty link on input line 37.
 
 
-Package hyperref Warning: Suppressing empty link on input line 19.
+LaTeX Warning: Reference `chap:appendix' on page iv undefined on input line 38.
+
 
 )
 \tf@toc=\write6
 \openout6 = `finalreport.toc'.
 
- (finalreport.lof)
+ [4] (finalreport.lof)
 \tf@lof=\write7
 \openout7 = `finalreport.lof'.
 
- (finalreport.lot [1])
+ [5
+
+] (finalreport.lot)
 \tf@lot=\write8
 \openout8 = `finalreport.lot'.
 
- [2]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
-has been already used, duplicate ignored
+ [6
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.192 
+l.207 
        [1
 
-] [2] [3] [4] <imgs/blocks.png, id=215, 552.1428pt x 938.0646pt>
-File: imgs/blocks.png Graphic file (type png)
+] <imgs/changiwrp.jpg, id=290, 487.8225pt x 381.425pt>
+File: imgs/changiwrp.jpg Graphic file (type jpg)
 
-<use imgs/blocks.png>
-Package pdftex.def Info: imgs/blocks.png used on input line 231.
-(pdftex.def)             Requested size: 174.53494pt x 296.52249pt.
- [5]
-<imgs/CWnetwork.pdf, id=230, 364.86313pt x 253.94875pt>
-File: imgs/CWnetwork.pdf Graphic file (type pdf)
-
-<use imgs/CWnetwork.pdf>
-Package pdftex.def Info: imgs/CWnetwork.pdf used on input line 262.
-(pdftex.def)             Requested size: 349.06227pt x 242.96266pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+<use imgs/changiwrp.jpg>
+Package pdftex.def Info: imgs/changiwrp.jpg used on input line 211.
+(pdftex.def)             Requested size: 209.43736pt x 163.75928pt.
+ [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.268 
-       <./imgs/blocks.png>] [7pdfTeX warning (ext4): destination with the same 
-identifier (name{figure.2}) has been already used, duplicate ignored
+l.216 
+       <./imgs/changiwrp.jpg>] [3] [4] [5]
+<imgs/blocks.png, id=371, 552.1428pt x 938.0646pt>
+File: imgs/blocks.png Graphic file (type png)
+ <use imgs/blocks.png>
+Package pdftex.def Info: imgs/blocks.png used on input line 259.
+(pdftex.def)             Requested size: 174.53494pt x 296.52249pt.
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.274 
+l.266 \subsection{Qualitative model description}
+                                                \label{section:problemstatem...
+ <./imgs/blocks.png>] <imgs/CWnetwork.pdf, id=378, 364.86313pt x 253.94875pt>
+File: imgs/CWnetwork.pdf Graphic file (type pdf)
+
+<use imgs/CWnetwork.pdf>
+Package pdftex.def Info: imgs/CWnetwork.pdf used on input line 270.
+(pdftex.def)             Requested size: 349.06227pt x 242.96266pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.280 
        <./imgs/CWnetwork.pdf>]
-Overfull \hbox (24.06061pt too wide) in paragraph at lines 291--320
+Overfull \hbox (24.06061pt too wide) in paragraph at lines 300--329
 [][] 
  []
 
@@ -779,83 +813,143 @@ Overfull \hbox (24.06061pt too wide) in paragraph at lines 291--320
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.334 \noindent
-               \textbf{Constructed wetlands design options}] [10]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¶ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¡ in font cmr12!
+l.338 \end{align}
+                 ] <imgs/plugflow.png, id=406, 1494.58376pt x 240.9pt>
+File: imgs/plugflow.png Graphic file (type png)
 
-<imgs/plugflow.pdf, id=275, 333.70671pt x 73.97638pt>
-File: imgs/plugflow.pdf Graphic file (type pdf)
- <use imgs/plugflow.pdf>
-Package pdftex.def Info: imgs/plugflow.pdf used on input line 376.
-(pdftex.def)             Requested size: 249.33128pt x 55.27217pt.
+<use imgs/plugflow.png>
+Package pdftex.def Info: imgs/plugflow.png used on input line 360.
+(pdftex.def)             Requested size: 249.33128pt x 40.1842pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
+) has been already used, duplicate ignored
 
-[11]pdfTeX warning (ext4): destination with the same identifier (name{equation.
-2.1}) has been already used, duplicate ignored
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.366 
+       <./imgs/plugflow.png (PNG copy)>] [11] [12]pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.2.1}) has been already used, dupl
+icate ignored
 <to be read again> 
                    \relax 
-l.418 \end{align}
+l.437 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 \end{align}
+l.437 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 \end{align}
+l.437 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 \end{align}
+l.437 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 \end{align}
+l.437 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 \end{align}
+l.437 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 \end{align}
+l.437 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 \end{align}
+l.437 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 \end{align}
-                  [12pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.418 \end{align}
-                  <./imgs/plugflow.pdf>] [13]
-Overfull \hbox (24.06061pt too wide) in paragraph at lines 428--447
+l.437 \end{align}
+                  [13]pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.455 \end{align}
+                 
+Overfull \hbox (24.06061pt too wide) in paragraph at lines 470--491
 [][] 
  []
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
-has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 \end{align}
+                  [14pdfTeX warning (ext4): destination with the same identifie
+r (name{table.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.451 \begin
-            {equation*}\label{modelS1}] [15]
-Overfull \hbox (24.06061pt too wide) in paragraph at lines 486--517
+l.528 \end{align}
+                 ] [15]
+Overfull \hbox (24.06061pt too wide) in paragraph at lines 538--569
 [][] 
  []
 
@@ -864,8 +958,102 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.521 \begin
-            {equation*}\label{modelS2}] [17] [18]
+l.573 \setcounter
+                 {equation}{0}]pdfTeX warning (ext4): destination with the same
+ identifier (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.2.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 \end{align}
+                  [17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
+
+ []
+
+<imgs/d.png, id=486, 498.36188pt x 846.91406pt>
+File: imgs/d.png Graphic file (type png)
+ <use imgs/d.png>
+Package pdftex.def Info: imgs/d.png used on input line 645.
+(pdftex.def)             Requested size: 174.53494pt x 296.59236pt.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 670.
+
+[19] [20pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.696 \clearpage
+                 <./imgs/d.png>] (finalreport.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+[]\OT1/cmr/m/n/12 ABB (2009).  Sin-ga-pore's used-water su-per-highway.  Re-tri
+e-ved from
+ []
+
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¡ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+[21
+
+] [22]) [23]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -875,56 +1063,45 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19
+[24
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
  been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.612 \newpage
+l.760 \newpage
               pdfTeX warning (ext4): destination with the same identifier (name
 {table.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.612 \newpage
-              ] [20pdfTeX warning (ext4): destination with the same identifier 
-(name{table.6}) has been already used, duplicate ignored
+l.760 \newpage
+              ]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 762.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{table.6})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.614 \clearpage
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{table.7}) has been already used, duplicate ignored
+l.762 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{table.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.614 \clearpage
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{table.8}) has been already used, duplicate ignored
+l.762 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{table.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.614 \clearpage
-                ] (finalreport.bbl
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
- [21
-
-]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¶ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¡ in font cmr12!
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 620.
- [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 620.
+l.762 \end{document}
+                    ]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 762.
  (finalreport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 620.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 620.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 762.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 762.
 
 
 Package rerunfilecheck Warning: File `finalreport.out' has changed.
@@ -932,40 +1109,42 @@ Package rerunfilecheck Warning: File `finalreport.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `finalreport.out':
-(rerunfilecheck)             Before: C0AD0E9AF9617DA6D0D39D01922043C1;1291
-(rerunfilecheck)             After:  1199D035C0036983079DB97FA216B3E5;1359.
+(rerunfilecheck)             Before: BF2F5B0CB4934306F200B48F26399D55;2768
+(rerunfilecheck)             After:  B3C615C963CEDA064A37232C4BC56ADD;2839.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 620.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 762.
  ) 
 Here is how much of TeX's memory you used:
- 10096 strings out of 493367
- 155280 string characters out of 3137368
- 273418 words of memory out of 3000000
- 13306 multiletter control sequences out of 15000+200000
+ 10273 strings out of 493367
+ 157894 string characters out of 3137367
+ 276064 words of memory out of 3000000
+ 13432 multiletter control sequences out of 15000+200000
  14140 words of font info for 56 fonts, out of 3000000 for 9000
  1127 hyphenation exceptions out of 8191
- 42i,21n,50p,1424b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on finalreport.pdf (26 pages, 5842235 bytes).
+ 42i,21n,50p,2142b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsubsection.1.5.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on finalreport.pdf (33 pages, 7849676 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 592 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

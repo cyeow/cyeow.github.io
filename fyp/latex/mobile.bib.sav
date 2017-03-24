@@ -9,7 +9,7 @@
 }
 
 @TechReport{mawss2015,
-  author      = {{{Mobile Area Water \& Sewer System}} and {{Volkert and Associates, Inc.}} and Kevin D. White},
+  author      = {{{Mobile Area Water \& Sewer System}} and {{Volkert and Associates, Inc.}} and White,Kevin D.},
   title       = {Integration of Decentralized Wastewater Management Concepts Into an Urban "Centralized" Infrastructure in Mobile, Alabama},
   institution = {USEPA National Decentralized Wastewater Demonstration Project},
   year        = {2015},
@@ -204,13 +204,89 @@
   title     = {Wastewater treatment in constructed wetlands with horizontal sub-surface flow},
   publisher = {Springer},
   year      = {2008},
-  author    = {Vymazal,Jan and Kröpfelová,Lenka},
+  author    = {Vymazal,Jan and Kr\"{o}pfelov\'{a},Lenka},
   volume    = {14.},
   address   = {Dordrecht, Netherlands;Boston, Mass.;},
   edition   = {1. Aufl.},
   abstract  = {This book fills a gap in the literature by providing an extensive, worldwide overview of wastewater treatment via constructed wetlands with horizontal sub-surface flow (HF CWs). Special attention is paid to assessing the use of this treatment technology in individual countries and treatment performance of various HF CWs with respect to major pollutants in different types of wastewater. The book provides a broad base of knowledge, including: processes occurring in wetland soils and overlying water, various types of constructed wetlands for wastewater treatment, detailed information about design parameters, functioning, operation and maintenance, and costs of HF CWs, evaluations of treatment efficiency of HF CWs under diverse conditions, and information on the global use of HF CWs for various types of wastewater. Case studies from over 50 countries and more than 250 colour photos that illustrate the science make this an invaluable text.;Wetlands have been used for uncontrolled wastewater disposal for centuries. However, the change in attitude towards wetlands during the 1950s and 1960s caused the minimization of the use of natural wetlands for wastewater treatment (at least in developed countries). Constructed wetlands have been used for wastewater treatment for about forty years. Constructed wetland treatment systems are engineered systems that have been designed and constructed to utilize the natural processes for removal of pollutants. They are designed to take advantage of many of the same processes that occur in natural wetlands, but do so within a more controlled environment. The aim of this book is to summarize the knowledge on horizontal s- surface flow constructed wetlands (HF CWs) and objectively evaluate their treatment efficiency under various conditions. The information on this type of wastewater treatment technology is scattered in many publications but a comprehensive summary based on world-wide experience has been lacking. The book provides an extensive overview of this treatment technology around the world, including examples from more than 50 countries and examples of various types of wastewater treated in HF CWs.;Constructed wetlands with horizontal sub-surface flow (HF CWs) have been used for wastewater treatment for more than four decades. HF CWs are used around the world for many types of wastewater, including municipal sewage, agricultural and industrial wastewaters, runoff waters, wastewaters containing endocrine-disrupting chemicals, and landfill leachate. This book fills a gap in the literature by providing an extensive, worldwide overview of this treatment technology. Special attention is paid to assessing the use of this treatment technology in individual countries and treatment performance of various HF CWs with respect to major pollutants in different types of wastewater. The book provides a broad base of knowledge, including: processes occurring in wetland soils and overlying water various types of constructed wetlands for wastewater treatment detailed information about design parameters, functioning, operation and maintenance, and costs of HF CWs evaluations of treatment efficiency of HF CWs under diverse conditions information on the global use of HF CWs for various types of wastewater The inclusion of case studies from over 50 countries and more than 250 colour photos that illustrate the science makes this an invaluable text. This book will be useful not only to wetland scientists, teachers, and engineers, but also to landscape planners, ecologists, wastewater-treatment designers and governmental decision-makers.;},
   isbn      = {1402085796;9781402085796;140208580X;9781402085802;},
   keywords  = {Constructed wetlands; Land treatment of wastewater; Ecology; Environment; Plant Ecology; Environment, general; Waste Water Technology / Water Pollution Control / Water Management / Aquatic Pollution; Pollution, general; Applied Ecology},
+  language  = {English},
+}
+
+@Electronic{changiwrp,
+  author = {ABB},
+  year   = {2009},
+  title  = {Singapore's used-water superhighway},
+  note   = {Retrieved from http://www.abb.com/cawp/seitp202/386d8afe54432998c12575e5002f01dd.aspx},
+}
+
+@Article{kennedy2015,
+  author   = {Kennedy,Christopher A. and Stewart,Iain and Facchini,Angelo and Cersosimo,Igor and Mele,Renata and Chen,Bin and Uda,Mariko and Kansal,Arun and Chiu,Anthony and Kim,Kwi-gon and Dubeux,Carolina and Emilio Lebre La Rovere and Cunha,Bruno and Pincetl,Stephanie and Keirstead,James and Barles,Sabine and Pusaka,Semerdanta and Gunawan,Juniati and Adegbile,Michael and Nazariha,Mehrdad and Hoque,Shamsul and Marcotullio,Peter J. and Otharán,Florencia G. and Genena,Tarek and Ibrahim,Nadine and Farooqui,Rizwan and Cervantes,Gemma and Sahin,Ahmet D.},
+  title    = {Energy and material flows of megacities},
+  journal  = {Proceedings of the National Academy of Sciences},
+  year     = {2015},
+  volume   = {112},
+  number   = {19},
+  pages    = {5985-5990},
+  abstract = {Understanding the drivers of energy and material flows of cities is important for addressing global environmental challenges. Accessing, sharing, and managing energy and material resources is particularly critical for megacities, which face enormous social stresses because of their sheer size and complexity. Here we quantify the energy and material flows through the world's 27 megacities with populations greater than 10 million people as of 2010. Collectively the resource flows through megacities are largely consistent with scaling laws established in the emerging science of cities. Correlations are established for electricity consumption, heating and industrial fuel use, ground transportation energy use, water consumption, waste generation, and steel production in terms of heating-degree-days, urban form, economic activity, and population growth. The results help identify megacities exhibiting high and low levels of consumption and those making efficient use of resources. The correlation between per capita electricity use and urbanized area per capita is shown to be a consequence of gross building floor area per capita, which is found to increase for lower-density cities. Many of the megacities are growing rapidly in population but are growing even faster in terms of gross domestic product (GDP) and energy use. In the decade from 2001-2011, electricity use and ground transportation fuel use in megacities grew at approximately half the rate of GDP growth.;sustainability | sustainable development | urbanization | urban metabolism | industrial ecology;  Understanding the drivers of energy and material flows of cities is important for addressing global environmental challenges. Accessing, sharing, and managing energy and material resources is particularly critical for megacities, which face enormous social stresses because of their sheer size and complexity. Here we quantify the energy and material flows through the world's 27 megacities with populations greater than 10 million people as of 2010. Collectively the resource flows through megacities are largely consistent with scaling laws established in the emerging science of cities. Correlations are established for electricity consumption, heating and industrial fuel use, ground transportation energy use, water consumption, waste generation, and steel production in terms of heating-degree-days, urban form, economic activity, and population growth. The results help identify megacities exhibiting high and low levels of consumption and those making efficient use of resources. The correlation between per capita electricity use and urbanized area per capita is shown to be a consequence of gross building floor area per capita, which is found to increase for lower-density cities. Many of the megacities are growing rapidly in population but are growing even faster in terms of gross domestic product (GDP) and energy use. In the decade from 2001-2011, electricity use and ground transportation fuel use in megacities grew at approximately half the rate of GDP growth.;},
+  isbn     = {0027-8424},
+  keywords = {Industrial ecology; Urbanization; Research; Per capita; Cities; Gross Domestic Product--GDP; Electricity; Correlation analysis; Heating},
+  language = {English},
+}
+
+@InBook{dingle2008,
+  chapter   = {1},
+  pages     = {7-18},
+  title     = {Troubled Waters: Confronting the Water Crisis in Australia's Cities},
+  publisher = {ANU Press},
+  year      = {2008},
+  author    = {Dingle, T},
+  editor    = {Troy,Patrick},
+  address   = {Canberra},
+  abstract  = {Australian cities have traditionally relied for their water on a ‘predict-and-provide’ philosophy that gives primacy to big engineering solutions. In more recent years privatised water authorities, seeking to maximise consumption and profits, have reinforced the emphasis on increasing supply. Now the cities must cope with the stresses these policies have imposed on the eco-systems from which they harvest water, into which they discharge wastes, and on which they are located. Residents are having to pay more for their water, while the cities themselves are becoming less sustainable. Must we build more dams and desalination plants, or should we be managing the demand for urban water more prudently? This book explores the demand for urban water and how it has changed in response to shifting social mores over the past century. It explains how demand for centralised provision of water might be reshaped to enable the cities to better cope with expected changes in supply as our climate changes. And it discusses the implications of property rights in water for proposals to privatise water services.},
+  isbn      = {1921313846;9781921313844;},
+  keywords  = {Environmental science, engineering and technology; Technology, engineering, agriculture},
+  language  = {English},
+}
+
+@Article{gandy2004,
+  author   = {Gandy,Matthew},
+  title    = {Rethinking urban metabolism: water, space and the modern city},
+  journal  = {City},
+  year     = {2004},
+  volume   = {8},
+  number   = {3},
+  pages    = {363-379},
+  abstract = {'Water is a brutal delineator of social power which has at various times worked to either foster greater urban cohesion or generate new forms of political conflict'. In the paper which follows, Matthew Gandy explores this statement by looking at the expansion of urban water systems since the chaos of the nineteenth-century industrial city. In this early period, the relationship between water and urban space can be understood by the emergence of what he calls the 'bacteriological city', defined by features such as new moral geographies and modes of social discipline based upon ideologies of cleanliness, a move away from laissez-faire policies towards a technocratic and rational model of municipal managerialism, and a connection between urban infrastructures and citizenship rights. Gandy goes on to discuss that while many cities never ultimately conformed to this model, the last thirty years has seen a fundamental move away from the bacteriological city to a more diffuse, fragmentary and polarized urban technological landscape. Characteristics here include declining investment in urban infrastructures, a desire to meet shareholder rather than wider public needs, oligopolistic structures amongst providers, the marketisation of goods such as water, increased health scares and mistrust from consumers, and polarisation of the quality of service provision. For Gandy, these shifts are better understood by more relational, hybridised, rather than functional-linear, notions of urban metabolic systems.},
+  isbn     = {1360-4813},
+  language = {English},
+}
+
+@Article{gleick2000,
+  author  = {Peter H. Gleick},
+  title   = {A Look at Twenty-first Century Water Resources Development},
+  journal = {Water International},
+  year    = {2000},
+  volume  = {25},
+  number  = {1},
+  pages   = {127-138},
+  doi     = {10.1080/02508060008686804},
+  eprint  = {http://dx.doi.org/10.1080/02508060008686804},
+  url     = { 
+        http://dx.doi.org/10.1080/02508060008686804
+    
+},
+}
+
+@Book{brundtland1987,
+  title     = {Our common future},
+  publisher = {Oxford University Press},
+  year      = {1987},
+  author    = {{World Commission on Environment and Development}},
+  address   = {Oxford;New York;},
+  isbn      = {9780192820808;019282080X;},
+  keywords  = {Human ecology; Sustainable development; Effect of human beings on; Environmental policy; Nature},
   language  = {English},
 }
 

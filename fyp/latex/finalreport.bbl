@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[ABB, 2009]{changiwrp}
+ABB (2009).
+\newblock Singapore's used-water superhighway.
+\newblock Retrieved from
+  http://www.abb.com/cawp/seitp202/386d8afe54432998c12575e5002f01dd.aspx.
+
 \bibitem[Bakir, 2001]{bakir2001}
 Bakir, H. (2001).
 \newblock Sustainable wastewater management for small communities in the middle
@@ -11,14 +17,41 @@ Barry Dalal-Clayton, S.~B. (2002).
 \newblock {\em Sustainable Development Strategies : A Resource Book}.
 \newblock Earthscan Publications Ltd., first edition edition.
 
+\bibitem[Dingle, 2008]{dingle2008}
+Dingle, T. (2008).
+\newblock {\em Troubled Waters: Confronting the Water Crisis in Australia's
+  Cities}, chapter~1, pages 7--18.
+\newblock ANU Press, Canberra.
+
+\bibitem[Gandy, 2004]{gandy2004}
+Gandy, M. (2004).
+\newblock Rethinking urban metabolism: water, space and the modern city.
+\newblock {\em City}, 8(3):363--379.
+
 \bibitem[Gauthier and {United States Census Bureau}, 2002]{uscb2002census}
 Gauthier, J.~G. and {United States Census Bureau} (2002).
 \newblock Measuring america: The decennial censuses from 1790 to 2000.
+
+\bibitem[Gleick, 2000]{gleick2000}
+Gleick, P.~H. (2000).
+\newblock A look at twenty-first century water resources development.
+\newblock {\em Water International}, 25(1):127--138.
 
 \bibitem[Kadlec and Wallace, 2009]{kadlec2009}
 Kadlec, R.~H. and Wallace, S. (2009).
 \newblock {\em Treatment Wetlands}.
 \newblock CRC: Taylor \& Francis Group.
+
+\bibitem[Kennedy et~al., 2015]{kennedy2015}
+Kennedy, C.~A., Stewart, I., Facchini, A., Cersosimo, I., Mele, R., Chen, B.,
+  Uda, M., Kansal, A., Chiu, A., Kim, K.-g., Dubeux, C., Rovere, E. L.~L.,
+  Cunha, B., Pincetl, S., Keirstead, J., Barles, S., Pusaka, S., Gunawan, J.,
+  Adegbile, M., Nazariha, M., Hoque, S., Marcotullio, P.~J., Otharán, F.~G.,
+  Genena, T., Ibrahim, N., Farooqui, R., Cervantes, G., and Sahin, A.~D.
+  (2015).
+\newblock Energy and material flows of megacities.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  112(19):5985--5990.
 
 \bibitem[Li et~al., 2014]{li2014}
 Li, Y., Zhu, G., Ng, W.~J., and Tan, S.~K. (2014).
@@ -76,8 +109,13 @@ Rousseau, D.~P., Vanrolleghem, P.~A., and De~Pauw, N. (2004).
 {United States Census Bureau} (2016).
 \newblock American community survey 2015.
 
-\bibitem[Vymazal and Kröpfelová, 2008]{vymazal2008}
-Vymazal, J. and Kröpfelová, L. (2008).
+\bibitem[{United States Environmental Protection Agency}, 2000]{usepa2000}
+{United States Environmental Protection Agency} (2000).
+\newblock Wastewater technology fact sheet: Pipe construction and materials.
+\newblock Technical report, Office of Water.
+
+\bibitem[Vymazal and Kr\"{o}pfelov\'{a}, 2008]{vymazal2008}
+Vymazal, J. and Kr\"{o}pfelov\'{a}, L. (2008).
 \newblock {\em Wastewater treatment in constructed wetlands with horizontal
   sub-surface flow}, volume 14.
 \newblock Springer, Dordrecht, Netherlands;Boston, Mass.;, 1. aufl. edition.
@@ -87,5 +125,11 @@ Wilderer, P. and Schreff, D. (2000).
 \newblock Decentralized and centralized wastewater management: a challenge for
   technology developers.
 \newblock {\em Water Science and Technology}, 41(1):1--8.
+
+\bibitem[{World Commission on Environment and Development},
+  1987]{brundtland1987}
+{World Commission on Environment and Development} (1987).
+\newblock {\em Our common future}.
+\newblock Oxford University Press, Oxford;New York;.
 
 \end{thebibliography}
