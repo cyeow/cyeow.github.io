@@ -5,34 +5,39 @@
 \contentsline {subsection}{\numberline {1.4}Decentralized wastewater management}{4}{subsection.1.4}
 \contentsline {subsection}{\numberline {1.5}Constructed Wetlands}{4}{subsection.1.5}
 \contentsline {subsubsection}{\numberline {1.5.1}Horizontal sub-surface flow constructed wetlands}{5}{subsubsection.1.5.1}
-\contentsline {subsection}{\numberline {1.6}Objective}{6}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.6}Objective}{5}{subsection.1.6}
 \contentsline {subsection}{\numberline {1.7}Significance}{6}{subsection.1.7}
-\contentsline {section}{\numberline {2}Problem formulation}{6}{section.2}
+\contentsline {section}{\numberline {2}Methodology}{6}{section.2}
 \contentsline {subsection}{\numberline {2.1}Case study: a decentralized CWs system for municipal wastewater treatment}{6}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Mobile, Alabama}{6}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Case Study Area}{7}{subsubsection.2.1.2}
-\contentsline {subsection}{\numberline {2.2}Qualitative model description}{8}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Deterministic model}{9}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Objective Function}{11}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Constraints}{11}{subsubsection.2.3.2}
-\contentsline {subsection}{\numberline {2.4}Two-stage stochastic model}{15}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Sample average approximation}{15}{subsection.2.5}
-\contentsline {subsubsection}{\numberline {2.5.1}Maximizing average success}{15}{subsubsection.2.5.1}
-\contentsline {subsubsection}{\numberline {2.5.2}Minimizing Pollutant Shortfall}{17}{subsubsection.2.5.2}
-\contentsline {subsubsection}{\numberline {2.5.3}Scenario construction}{19}{subsubsection.2.5.3}
-\contentsline {section}{\numberline {3}Case study}{19}{section.3}
-\contentsline {subsection}{\numberline {3.1}Pollutant consideration}{19}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Design options}{20}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Sewer pipe construction cost}{20}{subsection.3.3}
-\contentsline {section}{\numberline {4}Results}{20}{section.4}
-\contentsline {subsection}{\numberline {4.1}Deterministic model, Model D}{20}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Stochastic model: maximizing average success, Model S1}{21}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Stochastic model: minimizing pollutant shortfall, Model S2}{21}{subsection.4.3}
-\contentsline {section}{\numberline {5}Computational study}{21}{section.5}
-\contentsline {subsubsection}{\numberline {5.0.1}Out-of-sample performance}{21}{subsubsection.5.0.1}
-\contentsline {subsubsection}{\numberline {5.0.2}Increasing budget}{21}{subsubsection.5.0.2}
-\contentsline {section}{\numberline {6}Discussion}{21}{section.6}
-\contentsline {section}{\numberline {7}Conclusion}{21}{section.7}
-\contentsline {subsection}{\numberline {7.1}Further Directions}{21}{subsection.7.1}
-\contentsline {chapter}{\nameref {sec:references}}{22}{subsection.7.1}
-\contentsline {chapter}{\nameref {chap:appendix}}{25}{subsection.7.1}
+\contentsline {section}{\numberline {3}Problem formulation}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Qualitative model description}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Deterministic model}{9}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Objective Function}{10}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Constraints}{10}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Model}{13}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}Two-stage stochastic model}{13}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Objective function}{14}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Constraints}{14}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Model}{15}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Sample average approximation}{16}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Maximizing average success}{17}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Minimizing pollutant shortfall}{18}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Scenario construction}{19}{subsubsection.3.4.3}
+\contentsline {section}{\numberline {4}Case study}{20}{section.4}
+\contentsline {subsection}{\numberline {4.1}Pollutants}{20}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Design options}{20}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Sewer pipe construction cost}{21}{subsection.4.3}
+\contentsline {section}{\numberline {5}Results}{21}{section.5}
+\contentsline {subsection}{\numberline {5.1}Deterministic model, Model D}{21}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Stochastic model: maximizing average success, Model S1}{22}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Stochastic model: minimizing pollutant shortfall, Model S2}{22}{subsection.5.3}
+\contentsline {section}{\numberline {6}Computational study}{22}{section.6}
+\contentsline {subsubsection}{\numberline {6.0.1}Out-of-sample performance}{22}{subsubsection.6.0.1}
+\contentsline {subsubsection}{\numberline {6.0.2}Increasing budget}{22}{subsubsection.6.0.2}
+\contentsline {section}{\numberline {7}Discussion}{22}{section.7}
+\contentsline {section}{\numberline {8}Conclusion}{22}{section.8}
+\contentsline {subsection}{\numberline {8.1}Further Directions}{22}{subsection.8.1}
+\contentsline {chapter}{\nameref {sec:references}}{23}{subsection.8.1}
+\contentsline {chapter}{\nameref {chap:appendix}}{26}{subsection.8.1}

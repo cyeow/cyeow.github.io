@@ -7,32 +7,37 @@
 \BOOKMARK [3][-]{subsubsection.1.5.1}{Horizontal sub-surface flow constructed wetlands}{subsection.1.5}% 7
 \BOOKMARK [2][-]{subsection.1.6}{Objective}{section.1}% 8
 \BOOKMARK [2][-]{subsection.1.7}{Significance}{section.1}% 9
-\BOOKMARK [1][-]{section.2}{Problem formulation}{}% 10
+\BOOKMARK [1][-]{section.2}{Methodology}{}% 10
 \BOOKMARK [2][-]{subsection.2.1}{Case study: a decentralized CWs system for municipal wastewater treatment}{section.2}% 11
 \BOOKMARK [3][-]{subsubsection.2.1.1}{Mobile, Alabama}{subsection.2.1}% 12
 \BOOKMARK [3][-]{subsubsection.2.1.2}{Case Study Area}{subsection.2.1}% 13
-\BOOKMARK [2][-]{subsection.2.2}{Qualitative model description}{section.2}% 14
-\BOOKMARK [2][-]{subsection.2.3}{Deterministic model}{section.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.3.1}{Objective Function}{subsection.2.3}% 16
-\BOOKMARK [3][-]{subsubsection.2.3.2}{Constraints}{subsection.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.4}{Two-stage stochastic model}{section.2}% 18
-\BOOKMARK [2][-]{subsection.2.5}{Sample average approximation}{section.2}% 19
-\BOOKMARK [3][-]{subsubsection.2.5.1}{Maximizing average success}{subsection.2.5}% 20
-\BOOKMARK [3][-]{subsubsection.2.5.2}{Minimizing Pollutant Shortfall}{subsection.2.5}% 21
-\BOOKMARK [3][-]{subsubsection.2.5.3}{Scenario construction}{subsection.2.5}% 22
-\BOOKMARK [1][-]{section.3}{Case study}{}% 23
-\BOOKMARK [2][-]{subsection.3.1}{Pollutant consideration}{section.3}% 24
-\BOOKMARK [2][-]{subsection.3.2}{Design options}{section.3}% 25
-\BOOKMARK [2][-]{subsection.3.3}{Sewer pipe construction cost}{section.3}% 26
-\BOOKMARK [1][-]{section.4}{Results}{}% 27
-\BOOKMARK [2][-]{subsection.4.1}{Deterministic model, Model D}{section.4}% 28
-\BOOKMARK [2][-]{subsection.4.2}{Stochastic model: maximizing average success, Model S1}{section.4}% 29
-\BOOKMARK [2][-]{subsection.4.3}{Stochastic model: minimizing pollutant shortfall, Model S2}{section.4}% 30
-\BOOKMARK [1][-]{section.5}{Computational study}{}% 31
-\BOOKMARK [2][-]{subsubsection.5.0.1}{Out-of-sample performance}{section.5}% 32
-\BOOKMARK [3][-]{subsubsection.5.0.2}{Increasing budget}{subsubsection.5.0.1}% 33
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 34
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 35
-\BOOKMARK [2][-]{subsection.7.1}{Further Directions}{section.7}% 36
-\BOOKMARK [0][-]{subsection.7.1}{}{}% 37
-\BOOKMARK [0][-]{subsection.7.1}{??}{}% 38
+\BOOKMARK [1][-]{section.3}{Problem formulation}{}% 14
+\BOOKMARK [2][-]{subsection.3.1}{Qualitative model description}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.2}{Deterministic model}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Objective Function}{subsection.3.2}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Constraints}{subsection.3.2}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Model}{subsection.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.3}{Two-stage stochastic model}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Objective function}{subsection.3.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Constraints}{subsection.3.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Model}{subsection.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.4}{Sample average approximation}{section.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Maximizing average success}{subsection.3.4}% 25
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Minimizing pollutant shortfall}{subsection.3.4}% 26
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Scenario construction}{subsection.3.4}% 27
+\BOOKMARK [1][-]{section.4}{Case study}{}% 28
+\BOOKMARK [2][-]{subsection.4.1}{Pollutants}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.2}{Design options}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.3}{Sewer pipe construction cost}{section.4}% 31
+\BOOKMARK [1][-]{section.5}{Results}{}% 32
+\BOOKMARK [2][-]{subsection.5.1}{Deterministic model, Model D}{section.5}% 33
+\BOOKMARK [2][-]{subsection.5.2}{Stochastic model: maximizing average success, Model S1}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.3}{Stochastic model: minimizing pollutant shortfall, Model S2}{section.5}% 35
+\BOOKMARK [1][-]{section.6}{Computational study}{}% 36
+\BOOKMARK [2][-]{subsubsection.6.0.1}{Out-of-sample performance}{section.6}% 37
+\BOOKMARK [3][-]{subsubsection.6.0.2}{Increasing budget}{subsubsection.6.0.1}% 38
+\BOOKMARK [1][-]{section.7}{Discussion}{}% 39
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 40
+\BOOKMARK [2][-]{subsection.8.1}{Further Directions}{section.8}% 41
+\BOOKMARK [0][-]{subsection.8.1}{}{}% 42
+\BOOKMARK [0][-]{subsection.8.1}{??}{}% 43
