@@ -6,14 +6,19 @@ ABB (2009).
 \newblock Retrieved from
   http://www.abb.com/cawp/seitp202/386d8afe54432998c12575e5002f01dd.aspx.
 
+\bibitem[{Alabama Department of Environmental Management}, 2015]{alabama2015}
+{Alabama Department of Environmental Management} (2015).
+\newblock {\em Water Quality Program}.
+\newblock {Alabama Department of Environmental Management Water Division}.
+
 \bibitem[Bakir, 2001]{bakir2001}
 Bakir, H. (2001).
 \newblock Sustainable wastewater management for small communities in the middle
   east and north africa.
 \newblock {\em Journal of Environmental Management}, 61(4):319 -- 328.
 
-\bibitem[Barry Dalal-Clayton, 2002]{dalal-clayton2002}
-Barry Dalal-Clayton, S.~B. (2002).
+\bibitem[Dalal-Clayton and Bass, 2002]{dalal-clayton2002}
+Dalal-Clayton, B. and Bass, S. (2002).
 \newblock {\em Sustainable Development Strategies : A Resource Book}.
 \newblock Earthscan Publications Ltd., first edition edition.
 
@@ -36,6 +41,13 @@ Gauthier, J.~G. and {United States Census Bureau} (2002).
 Gleick, P.~H. (2000).
 \newblock A look at twenty-first century water resources development.
 \newblock {\em Water International}, 25(1):127--138.
+
+\bibitem[Gross, 2005]{gross2005}
+Gross, M.~A. (2005).
+\newblock {\em Wastewater Characterization}.
+\newblock {University Curriculum Development for Decentralized Wastewater
+  Management} and {National Decentralized Water Resources Capacity Development
+  Project} and {University of Arkansas}, Fayetteville, AR.
 
 \bibitem[Kadlec and Wallace, 2009]{kadlec2009}
 Kadlec, R.~H. and Wallace, S. (2009).
@@ -124,6 +136,11 @@ Surrency, D. (1997).
 {United States Environmental Protection Agency} (2000).
 \newblock Wastewater technology fact sheet: Pipe construction and materials.
 \newblock Technical report, Office of Water.
+
+\bibitem[{United States Environmental Protection Agency}, 2002]{usepa2002}
+{United States Environmental Protection Agency} (2002).
+\newblock {\em Onsite Wastewater Treatment Systems Manual}.
+\newblock Office of Water and Office of Research and Development.
 
 \bibitem[Vymazal and Kr\"{o}pfelov\'{a}, 2008]{vymazal2008}
 Vymazal, J. and Kr\"{o}pfelov\'{a}, L. (2008).

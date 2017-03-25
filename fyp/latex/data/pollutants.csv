@@ -1,4 +1,4 @@
-,Pollutant,Indicator,AvgInfluentConc ($mg/l$),TreatmentTarget ($mg/l$)
-1,Microorganisms,BOD\textsubscript{5},242.5,30
-2,Ammoniacal and organic nitrogen,TN,50.5,10
-3,Suspended solids,TSS,220.5,30
+pollutant,indicator,mininf,maxinf,avginf,target
+Microorganisms,BOD\textsubscript{5},155,330,242.5,30
+Suspended solids,TSS,155,286,220.5,30
+Ammoniacal and organic nitrogen,TN,26,75,50.5,10

@@ -27,17 +27,18 @@
 \BOOKMARK [3][-]{subsubsection.3.4.3}{Scenario construction}{subsection.3.4}% 27
 \BOOKMARK [1][-]{section.4}{Case study}{}% 28
 \BOOKMARK [2][-]{subsection.4.1}{Pollutants}{section.4}% 29
-\BOOKMARK [2][-]{subsection.4.2}{Design options}{section.4}% 30
-\BOOKMARK [2][-]{subsection.4.3}{Sewer pipe construction cost}{section.4}% 31
-\BOOKMARK [1][-]{section.5}{Results}{}% 32
-\BOOKMARK [2][-]{subsection.5.1}{Deterministic model, Model D}{section.5}% 33
-\BOOKMARK [2][-]{subsection.5.2}{Stochastic model: maximizing average success, Model S1}{section.5}% 34
-\BOOKMARK [2][-]{subsection.5.3}{Stochastic model: minimizing pollutant shortfall, Model S2}{section.5}% 35
-\BOOKMARK [1][-]{section.6}{Computational study}{}% 36
-\BOOKMARK [2][-]{subsubsection.6.0.1}{Out-of-sample performance}{section.6}% 37
-\BOOKMARK [3][-]{subsubsection.6.0.2}{Increasing budget}{subsubsection.6.0.1}% 38
-\BOOKMARK [1][-]{section.7}{Discussion}{}% 39
-\BOOKMARK [1][-]{section.8}{Conclusion}{}% 40
-\BOOKMARK [2][-]{subsection.8.1}{Further Directions}{section.8}% 41
-\BOOKMARK [0][-]{subsection.8.1}{}{}% 42
-\BOOKMARK [0][-]{subsection.8.1}{??}{}% 43
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Impact of selected pollutants on the environment}{subsection.4.1}% 30
+\BOOKMARK [2][-]{subsection.4.2}{Design options}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.3}{Sewer pipe construction cost}{section.4}% 32
+\BOOKMARK [1][-]{section.5}{Results}{}% 33
+\BOOKMARK [2][-]{subsection.5.1}{Deterministic model, Model D}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.2}{Stochastic model: maximizing average success, Model S1}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.3}{Stochastic model: minimizing pollutant shortfall, Model S2}{section.5}% 36
+\BOOKMARK [1][-]{section.6}{Computational study}{}% 37
+\BOOKMARK [2][-]{subsubsection.6.0.1}{Out-of-sample performance}{section.6}% 38
+\BOOKMARK [3][-]{subsubsection.6.0.2}{Increasing budget}{subsubsection.6.0.1}% 39
+\BOOKMARK [1][-]{section.7}{Discussion}{}% 40
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 41
+\BOOKMARK [2][-]{subsection.8.1}{Further Directions}{section.8}% 42
+\BOOKMARK [0][-]{subsection.8.1}{}{}% 43
+\BOOKMARK [0][-]{subsection.8.1}{??}{}% 44

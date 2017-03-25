@@ -1,4 +1,4 @@
-CW site,$\text{Design option}$,$\text{Flow capacity}$,$\text{Visual on map}$
-"3",4,950,"orange, dots"
-"5-1",2,600,"yellow, dashed"
-"8",1,1,"maroon, solid"
+j,k,q,visual
+3,4,950, dotted red
+5-1,2,650,dashed yellow
+8,1,450,solid maroon
